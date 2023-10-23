@@ -1,103 +1,1146 @@
-[22:53:36 INFO  SMAPI] SMAPI 3.18.3 with Stardew Valley 1.5.6 (build 22018) on Microsoft Windows 11 Pro
-[22:53:36 INFO  SMAPI] Mods go here: D:\Program Files\Stardew Valley\Mods
-[22:53:36 TRACE SMAPI] Log started at 2023-08-26T03:53:36 UTC
-[22:53:38 DEBUG SMAPI] Waiting for game to launch...
-[22:53:39 TRACE game] NoFpsCap: This feature is not available
-[22:53:40 DEBUG SMAPI] Loading mod metadata...
-[22:53:40 DEBUG SMAPI] Loading mods...
-[22:53:40 TRACE SMAPI]    CJB Item Spawner (from Mods\CJBItemSpawner\CJBItemSpawner.dll)...
-[22:53:40 TRACE SMAPI]    Console Commands (from Mods\ConsoleCommands\ConsoleCommands.dll)...
-[22:53:40 TRACE SMAPI]    Error Handler (from Mods\ErrorHandler\ErrorHandler.dll)...
-[22:53:40 TRACE SMAPI]       Detected game patcher in assembly ErrorHandler.dll.
-[22:53:40 TRACE SMAPI]    MultiplayerMod (from Mods\MultiplayerMod\MultiplayerMod.dll)...
-[22:53:40 TRACE SMAPI]       Loading Lidgren.Network.Core.dll...
-[22:53:40 TRACE SMAPI]       Rewrote MultiplayerMod.dll to fix 32-bit architecture...
-[22:53:40 TRACE SMAPI]       Detected game patcher in assembly MultiplayerMod.dll.
-[22:53:40 TRACE SMAPI]       Detected possible save serializer change (StardewValley.SaveGame.farmerSerializer field) in assembly MultiplayerMod.dll.
-[22:53:40 TRACE SMAPI]       Loading MultiplayerMod.dll (rewritten)...
-[22:53:40 TRACE SMAPI]    Save Backup (from Mods\SaveBackup\SaveBackup.dll)...
-[22:53:40 TRACE SMAPI]    TimeSpeed (from Mods\TimeSpeed\TimeSpeed.dll)...
-[22:53:40 INFO  SMAPI] Loaded 6 mods:
-[22:53:40 INFO  SMAPI]    CJB Item Spawner 2.2.3 by CJBok and Pathoschild | Simple in-game item spawner!
-[22:53:40 INFO  SMAPI]    Console Commands 3.18.3 by SMAPI | Adds SMAPI console commands that let you manipulate the game.
-[22:53:40 INFO  SMAPI]    Error Handler 3.18.3 by SMAPI | Handles some common vanilla errors to log more useful info or avoid breaking the game.
-[22:53:40 INFO  SMAPI]    MultiplayerMod 1.1.0 by Tran Minh Thong | It is a Mod that makes it possible for players to play together
-[22:53:40 INFO  SMAPI]    Save Backup 3.18.3 by SMAPI | Automatically backs up all your saves once per day into its folder.
-[22:53:40 INFO  SMAPI]    TimeSpeed 2.7.5 by cantorsdust and Pathoschild | Lets you control the flow of time in the game: speed it up, slow it down, or freeze it altogether.
+[10:45:02 INFO  SMAPI] SMAPI 3.18.3 with Stardew Valley 1.5.6 (build 22018) on Microsoft Windows 11 Pro
+[10:45:02 INFO  SMAPI] Mods go here: D:\Program Files\Stardew Valley\Mods
+[10:45:02 TRACE SMAPI] Log started at 2023-10-21T15:45:02 UTC
+[10:45:08 DEBUG SMAPI] Waiting for game to launch...
+[10:45:08 TRACE game] NoFpsCap: This feature is not available
+[10:45:10 DEBUG SMAPI] Loading mod metadata...
+[10:45:10 DEBUG SMAPI] Loading mods...
+[10:45:10 TRACE SMAPI]    Automate (from Mods\Automate\Automate.dll)...
+[10:45:11 TRACE SMAPI]    Better Ranching (from Mods\BetterRanching\BetterRanching.dll)...
+[10:45:11 TRACE SMAPI]    CJB Cheats Menu (from Mods\CJBCheatsMenu\CJBCheatsMenu.dll)...
+[10:45:12 TRACE SMAPI]    CJB Item Spawner (from Mods\CJBItemSpawner\CJBItemSpawner.dll)...
+[10:45:12 TRACE SMAPI]    Console Commands (from Mods\ConsoleCommands\ConsoleCommands.dll)...
+[10:45:12 TRACE SMAPI]    Content Patcher (from Mods\ContentPatcher\ContentPatcher.dll)...
+[10:45:13 TRACE SMAPI]    Convenient Inventory (from Mods\ConvenientInventory\ConvenientInventory.dll)...
+[10:45:14 TRACE SMAPI]       Detected game patcher in assembly ConvenientInventory.dll.
+[10:45:14 TRACE SMAPI]    Error Handler (from Mods\ErrorHandler\ErrorHandler.dll)...
+[10:45:14 TRACE SMAPI]       Detected game patcher in assembly ErrorHandler.dll.
+[10:45:14 TRACE SMAPI]    Lookup Anything (from Mods\LookupAnything\LookupAnything.dll)...
+[10:45:14 TRACE SMAPI]    Save Backup (from Mods\SaveBackup\SaveBackup.dll)...
+[10:45:14 TRACE SMAPI]    SkullCavernElevator (from Mods\SkullCavernElevator\SkullCavernElevator.dll)...
+[10:45:15 TRACE SMAPI]    Upgrate Sprinklers (from Mods\[CP] Upgrate Sprinklers) [content pack]...
+[10:45:15 TRACE SMAPI]    Wren's Expanded Greenhouse (from Mods\[CP] Wren's Expanded Greenhouse) [content pack]...
+[10:45:15 INFO  SMAPI] Loaded 11 mods:
+[10:45:15 INFO  SMAPI]    Automate 1.28.6 by Pathoschild | Lets you automate crafting machines, fruit trees, and more by connecting them to chests.
+[10:45:15 INFO  SMAPI]    Better Ranching 1.9.2 by Urbanyeti | Prevents failed milk/shear attempts and displays when animals can be milked/sheared and petted.
+[10:45:15 INFO  SMAPI]    CJB Cheats Menu 1.33.3 by CJBok and Pathoschild | Simple in-game cheats menu!
+[10:45:15 INFO  SMAPI]    CJB Item Spawner 2.2.7 by CJBok and Pathoschild | Simple in-game item spawner!
+[10:45:15 INFO  SMAPI]    Console Commands 3.18.3 by SMAPI | Adds SMAPI console commands that let you manipulate the game.
+[10:45:15 INFO  SMAPI]    Content Patcher 1.30.2 by Pathoschild | Loads content packs which edit game data, images, and maps without changing the game files.
+[10:45:15 INFO  SMAPI]    Convenient Inventory 1.3.0 by gaussfire | Adds convenience features to the player's inventory, such as quick stack to nearby chests and favorited items.
+[10:45:15 INFO  SMAPI]    Error Handler 3.18.3 by SMAPI | Handles some common vanilla errors to log more useful info or avoid breaking the game.
+[10:45:15 INFO  SMAPI]    Lookup Anything 1.40.2 by Pathoschild | View metadata about anything by pressing a button.
+[10:45:15 INFO  SMAPI]    Save Backup 3.18.3 by SMAPI | Automatically backs up all your saves once per day into its folder.
+[10:45:15 INFO  SMAPI]    SkullCavernElevator 1.5.0 by lestoph | Elevator for the Skull Cavern
 
-[22:53:40 INFO  SMAPI] Found 1 mod with warnings:
-[22:53:40 WARN  SMAPI]    Changed save serializer
-[22:53:40 WARN  SMAPI]    --------------------------------------------------
-[22:53:40 WARN  SMAPI]       These mods change the save serializer. They may corrupt your save files, or make them unusable if
-[22:53:40 WARN  SMAPI]       you uninstall these mods.
+[10:45:15 INFO  SMAPI] Loaded 2 content packs:
+[10:45:15 INFO  SMAPI]    Upgrate Sprinklers 1.0.0 by OchoLinda | for Content Patcher | don't lose the sprinklers, upgrate them
+[10:45:15 INFO  SMAPI]    Wren's Expanded Greenhouse 1.5.1 by Tlitookilakin | for Content Patcher | Wren's custom greenhouse map
 
-[22:53:40 WARN  SMAPI]       - MultiplayerMod
+[10:45:15 INFO  SMAPI] Found 2 mods with warnings:
+[10:45:15 INFO  SMAPI]    Patched game code
+[10:45:15 INFO  SMAPI]    --------------------------------------------------
+[10:45:15 INFO  SMAPI]       These mods directly change the game code. They're more likely to cause errors or bugs in-game; if
+[10:45:15 INFO  SMAPI]       your game has issues, try removing these first. Otherwise you can ignore this warning.
 
-[22:53:40 INFO  SMAPI]    Patched game code
-[22:53:40 INFO  SMAPI]    --------------------------------------------------
-[22:53:40 INFO  SMAPI]       These mods directly change the game code. They're more likely to cause errors or bugs in-game; if
-[22:53:40 INFO  SMAPI]       your game has issues, try removing these first. Otherwise you can ignore this warning.
+[10:45:15 INFO  SMAPI]       - Convenient Inventory
 
-[22:53:40 INFO  SMAPI]       - MultiplayerMod
+[10:45:15 DEBUG SMAPI]    No update keys
+[10:45:15 DEBUG SMAPI]    --------------------------------------------------
+[10:45:15 DEBUG SMAPI]       These mods have no update keys in their manifest. SMAPI may not notify you about updates for these
+[10:45:15 DEBUG SMAPI]       mods. Consider notifying the mod authors about this problem.
 
-[22:53:41 DEBUG SMAPI] Launching mods...
-[22:53:41 TRACE CJB Item Spawner] Started with menu key I.
-[22:53:41 ALERT MultiplayerMod] Patch CoopMenuPatch done...
-[22:53:41 DEBUG SMAPI] Mods loaded and ready!
-[22:53:41 TRACE SMAPI] Checking for known software conflicts...
-[22:53:41 TRACE SMAPI]    None found!
-[22:53:41 TRACE SMAPI] Checking for updates...
-[22:53:41 TRACE Save Backup] Backed up to D:\Program Files\Stardew Valley\save-backups\2023-08-26 - SMAPI 3.18.3 with Stardew Valley 1.5.6.zip.
-[22:53:42 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
-[22:53:42 ALERT SMAPI] You can update SMAPI to 3.18.4: https://smapi.io
-[22:53:42 TRACE SMAPI]    Checking for updates to 3 mods...
-[22:53:42 TRACE SMAPI] Running on GPU: NVIDIA GeForce GTX 1650/PCIe/SSE2
+[10:45:15 DEBUG SMAPI]       - Upgrate Sprinklers
 
-[22:53:42 ALERT SMAPI] You can update 2 mods:
-[22:53:42 ALERT SMAPI]    CJB Item Spawner 2.2.5: https://www.nexusmods.com/stardewvalley/mods/93 (you have 2.2.3)
-[22:53:42 ALERT SMAPI]    TimeSpeed 2.7.6: https://www.nexusmods.com/stardewvalley/mods/169 (you have 2.7.5)
-[22:53:43 TRACE SMAPI] Detecting common issues...
-[22:53:43 INFO  SMAPI] Type 'help' for help, or 'help <cmd>' for a command's usage
-[22:53:43 TRACE game] LocalizedContentManager.CurrentLanguageCode CHANGING from 'en' to 'es'
-[22:53:43 TRACE game] LocalizedContentManager.CurrentLanguageCode CHANGED from 'en' to 'es'
-[22:53:43 TRACE SMAPI] Context: locale set to es (es-ES).
-[22:53:43 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:320 Y:180 Width:1280 Height:720}
-[22:54:02 TRACE game] Galaxy auth failure: FAILURE_REASON_GALAXY_SERVICE_NOT_AVAILABLE
-[22:54:20 TRACE SMAPI] Synchronizing 'Find Save Games' task...
-[22:54:21 TRACE SMAPI]    task complete.
-[22:54:24 TRACE SMAPI] Synchronizing 'Farm_SpaceCheck' task...
-[22:54:24 TRACE SMAPI]    task complete.
-[22:54:25 TRACE SMAPI] Synchronizing 'Find Save Games' task...
-[22:54:25 TRACE SMAPI]    task complete.
-[22:56:12 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:522 Y:156 Width:1280 Height:720}
-[22:56:16 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:522 Y:156 Width:1280 Height:720}
-[22:56:16 TRACE game] Starting client. Protocol version: 1.5.5
-[22:56:38 TRACE game] Disconnected: ExitedToMainMenu_FromFarmhandSelect
-[22:56:38 TRACE SMAPI] Synchronizing 'Find Save Games' task...
-[22:56:38 TRACE SMAPI]    task complete.
-[22:56:42 TRACE game] gameMode was 'titleScreenGameMode (0)', set to 'loadingMode (6)'.
-[22:56:42 TRACE SMAPI] Game loader synchronizing...
-[22:56:42 TRACE game] getLoadEnumerator('Amiguitos_346875296')
-[22:56:42 TRACE game] regular stream detected...
-[22:56:42 TRACE SMAPI] Synchronizing 'Load_Deserialize' task...
-[22:56:45 TRACE SMAPI]    task complete.
-[22:56:45 TRACE SMAPI] Synchronizing 'Load_LoadForNewGame' task...
-[22:56:48 TRACE SMAPI]    task complete.
-[22:56:48 TRACE SMAPI] Synchronizing 'Load_Farmer' task...
-[22:56:48 TRACE SMAPI]    task complete.
-[22:56:48 TRACE SMAPI] Synchronizing 'Load_Locations' task...
-[22:56:48 TRACE SMAPI]    task complete.
-[22:56:48 TRACE game] Starting server. Protocol version: 1.5.5
-[22:56:48 TRACE game] Starting LAN server
-[22:56:49 TRACE game] gameMode was 'loadingMode (6)', set to 'playingGameMode (3)'.
-[22:56:49 TRACE game] getLoadEnumerator() exited, elapsed = '00:00:06.6497421'
-[22:56:49 TRACE game] setupEventCommands() registered '130' methods
-[22:56:49 TRACE SMAPI] Game loader done.
-[22:56:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:522 Y:156 Width:1280 Height:720}
-[22:56:49 TRACE SMAPI] Context: loaded save 'Amiguitos_346875296', starting spring 28 Y2, locale set to es-ES. Main player with 1 player online.
-[22:57:34 TRACE SMAPI] Received connection for vanilla player 6289597612134585273.
-[22:57:34 TRACE game] Approved request for farmhand 6289597612134585273
-[22:58:12 TRACE game] Stopping LAN server
-[22:58:13 TRACE game] Disconnected: ClosedGame
-[22:58:13 TRACE SMAPI] Disposing...
-[22:58:13 TRACE SMAPI] Disposing the content coordinator. Content managers will no longer be usable after this point.
+[10:45:17 DEBUG SMAPI] Launching mods...
+[10:45:17 TRACE SMAPI]    Found mod-provided API (Pathoschild.Stardew.Automate.Framework.AutomateAPI).
+[10:45:17 TRACE SMAPI]    Found mod-provided API (BetterRanching.BetterRanchingApi).
+[10:45:17 TRACE CJB Cheats Menu] Started with menu key P.
+[10:45:17 TRACE CJB Item Spawner] Started with menu key I.
+[10:45:17 TRACE SMAPI]    Found mod-provided API (ContentPatcher.Framework.ContentPatcherAPI).
+[10:45:18 DEBUG SMAPI] Mods loaded and ready!
+[10:45:18 TRACE SMAPI] Checking for known software conflicts...
+[10:45:18 TRACE SMAPI]    None found!
+[10:45:18 TRACE SMAPI] Checking for updates...
+[10:45:18 TRACE Save Backup] Backed up to D:\Program Files\Stardew Valley\save-backups\2023-10-21 - SMAPI 3.18.3 with Stardew Valley 1.5.6.zip.
+[10:45:19 ALERT SMAPI] You can update SMAPI to 3.18.6: https://smapi.io
+[10:45:19 TRACE SMAPI]    Checking for updates to 10 mods...
+[10:45:19 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
+[10:45:20 TRACE SMAPI] Running on GPU: AMD Radeon(TM) Graphics
+[10:45:20 TRACE SMAPI]    All mods up to date.
+[10:45:21 WARN  SMAPI] Convenient Inventory uses deprecated code (IModHelper.Content) and will break in the next major SMAPI update.
+[10:45:21 DEBUG SMAPI]    at ConvenientInventory.ModEntry.Entry(IModHelper helper)
+   at StardewModdingAPI.Framework.SCore.LoadMods(IModMetadata[] mods, JsonHelper jsonHelper, ContentCoordinator contentCore, ModDatabase modDatabase)
+[10:45:21 TRACE SMAPI] Detecting common issues...
+[10:45:21 INFO  SMAPI] Type 'help' for help, or 'help <cmd>' for a command's usage
+[10:45:22 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[10:45:22 TRACE SMAPI] Content Patcher edited Data/CraftingRecipes (for the 'Upgrate Sprinklers' content pack).
+[10:45:22 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
+Propagated 1 core assets (Data/CraftingRecipes).
+[10:45:22 TRACE game] LocalizedContentManager.CurrentLanguageCode CHANGING from 'en' to 'es'
+[10:45:22 TRACE SMAPI] Content Patcher edited Data/CraftingRecipes.es-ES (for the 'Upgrate Sprinklers' content pack).
+[10:45:22 TRACE game] LocalizedContentManager.CurrentLanguageCode CHANGED from 'en' to 'es'
+[10:45:22 TRACE SMAPI] Context: locale set to es (es-ES).
+[10:45:22 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[10:45:36 TRACE SMAPI] Synchronizing 'Farm_SpaceCheck' task...
+[10:45:36 TRACE SMAPI]    task complete.
+[10:45:36 TRACE game] Galaxy auth failure: FAILURE_REASON_GALAXY_SERVICE_NOT_AVAILABLE
+[10:45:38 TRACE SMAPI] Synchronizing 'Find Save Games' task...
+[10:45:38 TRACE SMAPI]    task complete.
+[10:45:43 TRACE game] gameMode was 'titleScreenGameMode (0)', set to 'loadingMode (6)'.
+[10:45:43 TRACE SMAPI] Game loader synchronizing...
+[10:45:43 TRACE game] getLoadEnumerator('Amiguitos_346875296')
+[10:45:43 TRACE game] regular stream detected...
+[10:45:43 TRACE SMAPI] Synchronizing 'Load_Deserialize' task...
+[10:45:45 TRACE SMAPI]    task complete.
+[10:45:45 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[10:45:45 TRACE SMAPI] Invalidated 0 cache entries.
+[10:45:45 TRACE SMAPI] Synchronizing 'Load_LoadForNewGame' task...
+[10:45:47 TRACE SMAPI] Content Patcher loaded asset 'Maps/z_greenhouse_extras.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[10:45:47 TRACE SMAPI] Content Patcher edited Maps/z_greenhouse_extras.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[10:45:47 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[10:45:48 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[10:45:48 TRACE SMAPI] Content Patcher loaded asset 'Maps/z_greenhouse_extras.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[10:45:48 TRACE SMAPI] Content Patcher edited Maps/z_greenhouse_extras.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[10:45:48 TRACE SMAPI] Content Patcher edited Maps/Cellar (for the 'Wren's Expanded Greenhouse' content pack).
+[10:45:49 TRACE SMAPI]    task complete.
+[10:45:49 TRACE SMAPI] Synchronizing 'Load_Farmer' task...
+[10:45:49 TRACE SMAPI]    task complete.
+[10:45:49 TRACE SMAPI] Synchronizing 'Load_Locations' task...
+[10:45:50 TRACE SMAPI]    task complete.
+[10:45:50 TRACE game] Starting server. Protocol version: 1.5.5
+[10:45:50 TRACE game] Starting LAN server
+[10:45:50 TRACE game] gameMode was 'loadingMode (6)', set to 'playingGameMode (3)'.
+[10:45:50 TRACE game] Santiago was missing recipe Sprinkler to Quality from skill level up.
+[10:45:50 TRACE game] Santiago was missing recipe Quality to Iridium from skill level up.
+[10:45:50 TRACE game] getLoadEnumerator() exited, elapsed = '00:00:07.4315721'
+[10:45:50 TRACE game] setupEventCommands() registered '130' methods
+[10:45:50 TRACE SMAPI] Game loader done.
+[10:45:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[10:45:51 TRACE Convenient Inventory] Favorite item slots loaded for Santiago: '000000000000000000000000000000000000'.
+[10:45:51 TRACE SMAPI] Context: loaded save 'Amiguitos_346875296', starting fall 1 Y2, locale set to es-ES. Main player with 1 player online.
+[10:45:51 TRACE Convenient Inventory] Favorite item slots loaded for Santiago: '000000000000000000000000000000000000'.
+[10:45:55 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[10:45:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[10:46:07 TRACE game] Warping to Farm
+[10:47:02 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[10:47:02 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[10:47:11 TRACE CJB Item Spawner] Received menu open key.
+[10:47:21 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[10:47:21 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[10:49:44 TRACE CJB Item Spawner] Received menu open key.
+[10:49:46 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[10:49:55 TRACE game] Warping to Forest
+[10:50:03 TRACE game] Warping to AnimalShop
+[10:50:05 TRACE game] Warping to Forest
+[10:50:06 TRACE CJB Item Spawner] Received menu open key.
+[10:50:08 TRACE CJB Cheats Menu] Received menu open key.
+[10:50:16 TRACE game] Warping to AnimalShop
+[10:50:20 TRACE game] Warping to Forest
+[10:50:22 TRACE CJB Cheats Menu] Received menu open key.
+[10:50:37 TRACE game] Warping to AnimalShop
+[10:50:43 TRACE game] Warping to Forest
+[10:50:47 TRACE CJB Cheats Menu] Received menu open key.
+[10:50:48 TRACE CJB Cheats Menu] Received menu open key.
+[10:50:55 TRACE CJB Cheats Menu] Received menu open key.
+[10:51:06 TRACE game] Warping to AnimalShop
+[10:51:10 TRACE CJB Cheats Menu] Received menu open key.
+[10:51:16 TRACE game] Warping to Forest
+[10:51:25 TRACE game] Warping to Farm
+[10:51:29 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[10:51:29 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[10:51:44 TRACE game] Warping to FarmHouse
+[10:51:46 TRACE CJB Cheats Menu] Received menu open key.
+[10:51:56 TRACE SMAPI] Synchronizing 'NewDay' task...
+[10:51:57 TRACE SMAPI]    task complete.
+[10:51:57 TRACE SMAPI] Context: before save.
+[10:51:57 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[10:52:11 TRACE game] SaveGame.Save() called.
+[10:52:11 TRACE SMAPI] Synchronizing 'Save' task...
+[10:52:11 TRACE game] Saving without compression...
+[10:52:12 TRACE SMAPI]    task complete.
+[10:52:12 TRACE game] SaveGame.Save() completed without exceptions.
+[10:52:16 TRACE SMAPI] Context: after save, starting fall 6 Y2.
+[10:52:27 TRACE game] Warping to Farm
+[10:52:46 TRACE game] Warping to Backwoods
+[10:52:56 TRACE game] Warping to Mountain
+[10:53:02 TRACE CJB Cheats Menu] Received menu open key.
+[10:53:07 TRACE game] Warping to ScienceHouse
+[10:53:10 TRACE CJB Cheats Menu] Received menu open key.
+[10:53:22 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[10:53:22 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[10:53:53 TRACE CJB Item Spawner] Received menu open key.
+[10:53:57 TRACE game] Warping to Mountain
+[10:53:59 TRACE game] Warping to ScienceHouse
+[10:54:01 TRACE CJB Item Spawner] Received menu open key.
+[10:54:08 TRACE CJB Cheats Menu] Received menu open key, but a 'ItemMenu' menu is already open.
+[10:54:08 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[10:54:28 TRACE game] Warping to ScienceHouse
+[10:54:31 TRACE CJB Item Spawner] Received menu open key.
+[10:54:33 TRACE CJB Cheats Menu] Received menu open key.
+[10:54:37 TRACE game] Warping to Mountain
+[10:54:39 TRACE game] Warping to ScienceHouse
+[10:54:44 TRACE game] Warping to Mountain
+[10:54:50 TRACE game] Warping to Backwoods
+[10:55:00 TRACE game] Warping to Farm
+[10:55:05 TRACE game] Warping to Cabinf70561a3-b4bf-4932-8001-789cf2af93d3
+[10:55:13 TRACE SMAPI] Synchronizing 'NewDay' task...
+[10:55:13 TRACE SMAPI]    task complete.
+[10:55:13 TRACE SMAPI] Context: before save.
+[10:55:13 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[10:55:13 TRACE game] SaveGame.Save() called.
+[10:55:13 TRACE SMAPI] Synchronizing 'Save' task...
+[10:55:13 TRACE game] Saving without compression...
+[10:55:13 TRACE SMAPI]    task complete.
+[10:55:13 TRACE game] SaveGame.Save() completed without exceptions.
+[10:55:15 TRACE SMAPI] Context: after save, starting fall 12 Y2.
+[10:59:28 TRACE game] Warping to Farm
+[10:59:39 TRACE game] Warping to Cabinf70561a3-b4bf-4932-8001-789cf2af93d3
+[10:59:44 TRACE CJB Cheats Menu] Received menu open key.
+[10:59:51 TRACE SMAPI] Synchronizing 'NewDay' task...
+[10:59:51 TRACE SMAPI]    task complete.
+[10:59:51 TRACE SMAPI] Context: before save.
+[10:59:51 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[10:59:51 TRACE game] SaveGame.Save() called.
+[10:59:51 TRACE SMAPI] Synchronizing 'Save' task...
+[10:59:51 TRACE game] Saving without compression...
+[10:59:51 TRACE SMAPI]    task complete.
+[10:59:51 TRACE game] SaveGame.Save() completed without exceptions.
+[10:59:53 TRACE SMAPI] Context: after save, starting fall 16 Y2.
+[10:59:58 TRACE game] Warping to Farm
+[11:00:04 TRACE CJB Item Spawner] Received menu open key.
+[11:00:06 TRACE CJB Item Spawner] Received menu open key.
+[11:00:21 TRACE game] Warping to Coop83a83729-19cb-4094-8150-ecc2af05b748
+[11:00:26 TRACE game] Warping to Coop83a83729-19cb-4094-8150-ecc2af05b748
+[11:00:33 TRACE game] Warping to Farm
+[11:00:35 TRACE CJB Cheats Menu] Received menu open key.
+[11:00:39 TRACE game] Warping to Coop83a83729-19cb-4094-8150-ecc2af05b748
+[11:00:41 TRACE game] Warping to Farm
+[11:00:44 TRACE CJB Item Spawner] Received menu open key.
+[11:00:45 TRACE CJB Cheats Menu] Received menu open key.
+[11:00:53 TRACE game] Warping to Coop83a83729-19cb-4094-8150-ecc2af05b748
+[11:00:55 TRACE game] Warping to Farm
+[11:00:57 TRACE CJB Cheats Menu] Received menu open key.
+[11:01:10 TRACE game] Warping to Cabinf70561a3-b4bf-4932-8001-789cf2af93d3
+[11:01:18 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:01:19 TRACE SMAPI]    task complete.
+[11:01:19 TRACE SMAPI] Context: before save.
+[11:01:19 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:01:19 TRACE game] SaveGame.Save() called.
+[11:01:19 TRACE SMAPI] Synchronizing 'Save' task...
+[11:01:19 TRACE game] Saving without compression...
+[11:01:19 TRACE SMAPI]    task complete.
+[11:01:19 TRACE game] SaveGame.Save() completed without exceptions.
+[11:01:20 TRACE SMAPI] Context: after save, starting fall 2 Y2.
+[11:01:25 TRACE game] Warping to Farm
+[11:01:37 TRACE game] Warping to Backwoods
+[11:01:42 TRACE CJB Item Spawner] Received menu open key.
+[11:01:44 TRACE CJB Cheats Menu] Received menu open key.
+[11:01:48 TRACE game] Warping to Mountain
+[11:01:53 TRACE CJB Cheats Menu] Received menu open key.
+[11:01:56 TRACE game] Warping to ScienceHouse
+[11:01:59 TRACE game] Warping to Mountain
+[11:02:04 TRACE CJB Cheats Menu] Received menu open key.
+[11:02:09 TRACE game] Warping to ScienceHouse
+[11:02:53 TRACE game] Warping to Mountain
+[11:02:54 TRACE CJB Cheats Menu] Received menu open key.
+[11:03:02 TRACE game] Warping to ScienceHouse
+[11:03:03 TRACE game] Warping to Mountain
+[11:03:24 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:03:24 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:03:25 TRACE CJB Cheats Menu] Received menu open key.
+[11:03:44 TRACE game] Warping to Town
+[11:03:56 TRACE game] Warping to Mountain
+[11:04:02 TRACE game] Warping to ScienceHouse
+[11:04:06 TRACE game] Warping to Mountain
+[11:04:10 TRACE CJB Cheats Menu] Received menu open key.
+[11:04:13 TRACE game] Warping to Farm
+[11:04:15 TRACE game] Warping to FarmHouse
+[11:04:23 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:04:24 TRACE SMAPI]    task complete.
+[11:04:24 TRACE SMAPI] Context: before save.
+[11:04:24 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:04:24 TRACE game] SaveGame.Save() called.
+[11:04:24 TRACE SMAPI] Synchronizing 'Save' task...
+[11:04:24 TRACE game] Saving without compression...
+[11:04:24 TRACE SMAPI]    task complete.
+[11:04:24 TRACE game] SaveGame.Save() completed without exceptions.
+[11:04:25 TRACE SMAPI] Context: after save, starting fall 8 Y2.
+[11:04:25 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[11:04:25 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[11:04:26 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[11:04:26 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[11:04:28 TRACE game] Warping to Farm
+[11:04:30 TRACE CJB Cheats Menu] Received menu open key.
+[11:04:33 TRACE game] Warping to Mountain
+[11:04:34 TRACE CJB Cheats Menu] Received menu open key.
+[11:04:37 TRACE game] Warping to ScienceHouse
+[11:05:16 TRACE game] Warping to ScienceHouse
+[11:05:19 TRACE game] Warping to Mountain
+[11:05:21 TRACE CJB Cheats Menu] Received menu open key.
+[11:05:23 TRACE game] Warping to Farm
+[11:05:25 TRACE game] Warping to FarmHouse
+[11:05:30 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:05:31 TRACE SMAPI]    task complete.
+[11:05:31 TRACE SMAPI] Context: before save.
+[11:05:31 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:05:31 TRACE game] SaveGame.Save() called.
+[11:05:31 TRACE SMAPI] Synchronizing 'Save' task...
+[11:05:31 TRACE game] Saving without compression...
+[11:05:31 TRACE SMAPI]    task complete.
+[11:05:31 TRACE game] SaveGame.Save() completed without exceptions.
+[11:05:32 TRACE SMAPI] Context: after save, starting fall 9 Y2.
+[11:05:32 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[11:05:32 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[11:05:32 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[11:05:32 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[11:05:36 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:05:37 TRACE SMAPI]    task complete.
+[11:05:37 TRACE SMAPI] Context: before save.
+[11:05:37 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:05:37 TRACE game] SaveGame.Save() called.
+[11:05:37 TRACE SMAPI] Synchronizing 'Save' task...
+[11:05:37 TRACE game] Saving without compression...
+[11:05:37 TRACE SMAPI]    task complete.
+[11:05:37 TRACE game] SaveGame.Save() completed without exceptions.
+[11:05:38 TRACE SMAPI] Context: after save, starting fall 10 Y2.
+[11:05:42 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:05:42 TRACE SMAPI]    task complete.
+[11:05:42 TRACE SMAPI] Context: before save.
+[11:05:42 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:05:42 TRACE game] SaveGame.Save() called.
+[11:05:42 TRACE SMAPI] Synchronizing 'Save' task...
+[11:05:42 TRACE game] Saving without compression...
+[11:05:42 TRACE SMAPI]    task complete.
+[11:05:42 TRACE game] SaveGame.Save() completed without exceptions.
+[11:05:44 TRACE SMAPI] Context: after save, starting fall 11 Y2.
+[11:05:46 TRACE game] Warping to Farm
+[11:05:50 TRACE CJB Cheats Menu] Received menu open key.
+[11:05:55 TRACE game] Warping to Mountain
+[11:05:57 TRACE CJB Cheats Menu] Received menu open key.
+[11:06:06 TRACE CJB Cheats Menu] Received menu open key.
+[11:06:22 TRACE game] Warping to ScienceHouse
+[11:07:19 TRACE game] Warping to ScienceHouse
+[11:07:22 TRACE game] Warping to Mountain
+[11:07:24 TRACE CJB Cheats Menu] Received menu open key.
+[11:07:27 TRACE game] Warping to Farm
+[11:07:28 TRACE game] Warping to FarmHouse
+[11:07:34 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:07:34 TRACE SMAPI]    task complete.
+[11:07:34 TRACE SMAPI] Context: before save.
+[11:07:34 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:07:34 TRACE game] SaveGame.Save() called.
+[11:07:34 TRACE SMAPI] Synchronizing 'Save' task...
+[11:07:34 TRACE game] Saving without compression...
+[11:07:34 TRACE SMAPI]    task complete.
+[11:07:34 TRACE game] SaveGame.Save() completed without exceptions.
+[11:07:36 TRACE SMAPI] Context: after save, starting fall 12 Y2.
+[11:07:39 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:07:40 TRACE SMAPI]    task complete.
+[11:07:40 TRACE SMAPI] Context: before save.
+[11:07:40 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:07:40 TRACE game] SaveGame.Save() called.
+[11:07:40 TRACE SMAPI] Synchronizing 'Save' task...
+[11:07:40 TRACE game] Saving without compression...
+[11:07:40 TRACE SMAPI]    task complete.
+[11:07:40 TRACE game] SaveGame.Save() completed without exceptions.
+[11:07:41 TRACE SMAPI] Context: after save, starting fall 13 Y2.
+[11:07:44 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:07:45 TRACE SMAPI]    task complete.
+[11:07:45 TRACE SMAPI] Context: before save.
+[11:07:45 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:07:45 TRACE game] SaveGame.Save() called.
+[11:07:45 TRACE SMAPI] Synchronizing 'Save' task...
+[11:07:45 TRACE game] Saving without compression...
+[11:07:45 TRACE SMAPI]    task complete.
+[11:07:45 TRACE game] SaveGame.Save() completed without exceptions.
+[11:07:47 TRACE SMAPI] Context: after save, starting fall 14 Y2.
+[11:07:47 TRACE CJB Item Spawner] Received menu open key.
+[11:07:49 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:07:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:07:52 TRACE CJB Cheats Menu] Received menu open key.
+[11:08:01 TRACE CJB Cheats Menu] Received menu open key.
+[11:08:05 TRACE game] Warping to Mountain
+[11:08:06 TRACE game] Warping to ScienceHouse
+[11:08:51 TRACE CJB Item Spawner] Received menu open key.
+[11:08:56 TRACE CJB Item Spawner] Received menu open key.
+[11:08:57 TRACE CJB Cheats Menu] Received menu open key.
+[11:09:17 TRACE game] Warping to ScienceHouse
+[11:09:57 TRACE game] Warping to ScienceHouse
+[11:10:11 TRACE game] Warping to ScienceHouse
+[11:10:14 TRACE CJB Cheats Menu] Received menu open key.
+[11:10:17 TRACE game] Warping to Farm
+[11:10:19 TRACE game] Warping to FarmHouse
+[11:10:24 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:10:24 TRACE SMAPI]    task complete.
+[11:10:24 TRACE SMAPI] Context: before save.
+[11:10:24 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:10:24 TRACE game] SaveGame.Save() called.
+[11:10:24 TRACE SMAPI] Synchronizing 'Save' task...
+[11:10:24 TRACE game] Saving without compression...
+[11:10:24 TRACE SMAPI]    task complete.
+[11:10:24 TRACE game] SaveGame.Save() completed without exceptions.
+[11:10:26 TRACE SMAPI] Context: after save, starting fall 15 Y2.
+[11:10:29 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:10:29 TRACE SMAPI]    task complete.
+[11:10:29 TRACE SMAPI] Context: before save.
+[11:10:29 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:10:29 TRACE game] SaveGame.Save() called.
+[11:10:29 TRACE SMAPI] Synchronizing 'Save' task...
+[11:10:29 TRACE game] Saving without compression...
+[11:10:30 TRACE SMAPI]    task complete.
+[11:10:30 TRACE game] SaveGame.Save() completed without exceptions.
+[11:10:31 TRACE SMAPI] Context: after save, starting fall 16 Y2.
+[11:10:34 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:10:35 TRACE SMAPI]    task complete.
+[11:10:35 TRACE SMAPI] Context: before save.
+[11:10:35 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:10:35 TRACE game] SaveGame.Save() called.
+[11:10:35 TRACE SMAPI] Synchronizing 'Save' task...
+[11:10:35 TRACE game] Saving without compression...
+[11:10:35 TRACE SMAPI]    task complete.
+[11:10:35 TRACE game] SaveGame.Save() completed without exceptions.
+[11:10:36 TRACE SMAPI] Context: after save, starting fall 17 Y2.
+[11:10:40 TRACE game] Warping to Farm
+[11:11:00 TRACE game] Warping to Coop83a83729-19cb-4094-8150-ecc2af05b748
+[11:11:05 TRACE game] Warping to Coop83a83729-19cb-4094-8150-ecc2af05b748
+[11:11:35 TRACE game] Warping to Farm
+[11:11:40 TRACE game] Warping to Coop184e576b-4876-49ba-acc2-345e5411099e
+[11:11:43 TRACE game] Warping to Farm
+[11:12:40 TRACE game] Warping to Barnd2af669d-2b0d-4b65-a97e-9baf2fb87090
+[11:12:41 TRACE game] Warping to Farm
+[11:12:47 TRACE game] Warping to Barn00d68c61-87be-49e2-a291-648d8ede4e0e
+[11:12:48 TRACE game] Warping to Farm
+[11:13:02 TRACE CJB Cheats Menu] Received menu open key.
+[11:13:07 TRACE game] Warping to Forest
+[11:13:10 TRACE CJB Cheats Menu] Received menu open key.
+[11:13:14 TRACE game] Warping to AnimalShop
+[11:13:26 TRACE CJB Cheats Menu] Received menu open key.
+[11:13:48 TRACE game] Warping to AnimalShop
+[11:13:59 TRACE game] Warping to AnimalShop
+[11:14:10 TRACE game] Warping to AnimalShop
+[11:14:20 TRACE game] Warping to AnimalShop
+[11:14:30 TRACE game] Warping to AnimalShop
+[11:14:41 TRACE game] Warping to AnimalShop
+[11:14:51 TRACE game] Warping to AnimalShop
+[11:15:02 TRACE game] Warping to AnimalShop
+[11:15:12 TRACE game] Warping to AnimalShop
+[11:15:15 TRACE game] Warping to Forest
+[11:15:16 TRACE game] Warping to AnimalShop
+[11:15:26 TRACE CJB Cheats Menu] Received menu open key, but a 'ShopMenu' menu is already open.
+[11:15:26 TRACE CJB Cheats Menu] Received menu open key, but a 'ShopMenu' menu is already open.
+[11:15:27 TRACE CJB Cheats Menu] Received menu open key.
+[11:15:44 TRACE CJB Cheats Menu] Received menu open key.
+[11:16:17 TRACE game] Warping to Forest
+[11:16:24 TRACE game] Warping to Farm
+[11:16:26 TRACE CJB Cheats Menu] Received menu open key.
+[11:16:47 TRACE game] Warping to Barnd2af669d-2b0d-4b65-a97e-9baf2fb87090
+[11:16:55 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:16:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:17:17 TRACE game] Warping to Farm
+[11:17:25 TRACE game] Warping to Barn00d68c61-87be-49e2-a291-648d8ede4e0e
+[11:17:33 TRACE game] Warping to Farm
+[11:17:43 TRACE game] Warping to Coop83a83729-19cb-4094-8150-ecc2af05b748
+[11:17:52 TRACE game] Warping to Farm
+[11:17:55 TRACE game] Warping to Coop184e576b-4876-49ba-acc2-345e5411099e
+[11:18:05 TRACE game] Warping to Farm
+[11:18:07 TRACE game] Warping to Coop184e576b-4876-49ba-acc2-345e5411099e
+[11:18:15 TRACE game] Warping to Farm
+[11:18:27 TRACE CJB Cheats Menu] Received menu open key.
+[11:18:30 TRACE game] Warping to Mountain
+[11:18:32 TRACE game] Warping to ScienceHouse
+[11:18:42 TRACE CJB Item Spawner] Received menu open key.
+[11:18:49 TRACE CJB Cheats Menu] Received menu open key.
+[11:19:11 TRACE game] Warping to ScienceHouse
+[11:19:14 TRACE game] Warping to Mountain
+[11:19:16 TRACE CJB Cheats Menu] Received menu open key.
+[11:19:19 TRACE game] Warping to Town
+[11:19:22 TRACE game] Warping to CommunityCenter
+[11:19:36 TRACE CJB Cheats Menu] Received menu open key, but a 'JunimoNoteMenu' menu is already open.
+[11:19:37 TRACE CJB Cheats Menu] Received menu open key.
+[11:19:38 TRACE CJB Item Spawner] Received menu open key.
+[11:19:44 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:19:46 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:19:46 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:20:00 TRACE CJB Cheats Menu] Received menu open key.
+[11:20:02 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:20:02 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:20:31 TRACE CJB Item Spawner] Received menu open key, but the player isn't free.
+[11:20:32 TRACE CJB Cheats Menu] Received menu open key, but the player isn't free.
+[11:20:34 TRACE CJB Item Spawner] Received menu open key, but the player isn't free.
+[11:20:35 TRACE CJB Cheats Menu] Received menu open key, but the player isn't free.
+[11:20:37 TRACE CJB Cheats Menu] Received menu open key.
+[11:21:09 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:21:09 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:21:37 TRACE CJB Cheats Menu] Received menu open key.
+[11:21:43 TRACE CJB Item Spawner] Received menu open key.
+[11:21:45 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:22:49 TRACE game] Warping to Town
+[11:23:00 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:23:00 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:23:10 TRACE CJB Cheats Menu] Received menu open key.
+[11:23:17 TRACE game] Warping to Farm
+[11:23:58 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:23:58 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:23:59 TRACE CJB Cheats Menu] Received menu open key.
+[11:24:00 TRACE CJB Item Spawner] Received menu open key.
+[11:24:27 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:24:27 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:24:51 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:24:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:24:54 TRACE CJB Cheats Menu] Received menu open key.
+[11:24:55 TRACE CJB Item Spawner] Received menu open key.
+[11:24:58 TRACE CJB Cheats Menu] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:25:48 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:25:48 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:25:59 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:25:59 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:26:00 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:26:00 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:26:00 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:26:00 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:26:05 TRACE game] Warping to FarmHouse
+[11:26:06 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[11:26:06 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[11:26:06 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[11:26:06 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[11:26:11 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:26:11 TRACE SMAPI]    task complete.
+[11:26:22 TRACE SMAPI] Context: before save.
+[11:26:22 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:26:22 TRACE game] SaveGame.Save() called.
+[11:26:22 TRACE SMAPI] Synchronizing 'Save' task...
+[11:26:22 TRACE game] Saving without compression...
+[11:26:22 TRACE SMAPI]    task complete.
+[11:26:22 TRACE game] SaveGame.Save() completed without exceptions.
+[11:26:24 TRACE SMAPI] Context: after save, starting fall 18 Y2.
+[11:26:24 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[11:26:24 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[11:26:24 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[11:26:24 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[11:26:53 TRACE game] Warping to Farm
+[11:27:00 TRACE CJB Cheats Menu] Received menu open key.
+[11:27:06 TRACE game] Warping to Town
+[11:27:08 TRACE game] Warping to CommunityCenter
+[11:27:18 TRACE CJB Cheats Menu] Received menu open key.
+[11:27:20 TRACE CJB Item Spawner] Received menu open key.
+[11:27:28 TRACE CJB Cheats Menu] Received menu open key.
+[11:27:29 TRACE CJB Item Spawner] Received menu open key.
+[11:27:30 TRACE CJB Item Spawner] Received menu open key.
+[11:27:55 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:27:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:28:29 TRACE CJB Cheats Menu] Received menu open key.
+[11:28:31 TRACE game] Warping to Farm
+[11:28:32 TRACE game] Warping to FarmHouse
+[11:28:37 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:28:38 TRACE SMAPI]    task complete.
+[11:28:49 TRACE SMAPI] Context: before save.
+[11:28:49 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:28:49 TRACE game] SaveGame.Save() called.
+[11:28:49 TRACE SMAPI] Synchronizing 'Save' task...
+[11:28:49 TRACE game] Saving without compression...
+[11:28:49 TRACE SMAPI]    task complete.
+[11:28:49 TRACE game] SaveGame.Save() completed without exceptions.
+[11:28:51 TRACE SMAPI] Context: after save, starting fall 19 Y2.
+[11:28:51 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[11:28:51 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[11:28:51 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[11:28:51 TRACE SMAPI] Content Patcher edited Maps/Cellar (for the 'Wren's Expanded Greenhouse' content pack).
+[11:28:51 TRACE SMAPI] Invalidated 3 asset names (Maps/Cellar, Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 3 core assets (Maps/Cellar, Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[11:28:54 TRACE game] Warping to Farm
+[11:28:55 TRACE CJB Cheats Menu] Received menu open key.
+[11:28:57 TRACE game] Warping to Mine
+[11:29:00 TRACE game] Warping to BusStop
+[11:29:03 TRACE game] Warping to Town
+[11:29:11 TRACE CJB Cheats Menu] Received menu open key.
+[11:29:15 TRACE game] Warping to Farm
+[11:29:17 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:29:17 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:29:18 TRACE Convenient Inventory] Favorited item slot 1: Gold Pickaxe
+[11:29:19 TRACE Convenient Inventory] Un-Favorited item slot 1: Gold Pickaxe
+[11:29:24 TRACE Convenient Inventory] Favorited item slot 16: Moonlight Jellies Banner
+[11:29:25 TRACE Convenient Inventory] Un-Favorited item slot 16: Moonlight Jellies Banner
+[11:29:31 TRACE CJB Cheats Menu] Received menu open key.
+[11:29:34 TRACE CJB Item Spawner] Received menu open key.
+[11:29:39 TRACE CJB Cheats Menu] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:29:39 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:30:03 TRACE CJB Item Spawner] Received menu open key.
+[11:30:11 TRACE CJB Cheats Menu] Received menu open key.
+[11:30:16 TRACE CJB Cheats Menu] Received menu open key.
+[11:30:18 TRACE game] Warping to Mountain
+[11:30:19 TRACE game] Warping to ScienceHouse
+[11:31:18 TRACE game] Warping to ScienceHouse
+[11:31:25 TRACE CJB Cheats Menu] Received menu open key.
+[11:31:26 TRACE CJB Item Spawner] Received menu open key.
+[11:31:28 TRACE CJB Cheats Menu] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:31:28 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:31:32 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:31:57 TRACE game] Warping to ScienceHouse
+[11:32:12 TRACE game] Warping to ScienceHouse
+[11:32:41 TRACE game] Warping to Mountain
+[11:32:43 TRACE CJB Cheats Menu] Received menu open key.
+[11:32:47 TRACE game] Warping to Town
+[11:32:48 TRACE game] Warping to SeedShop
+[11:33:08 TRACE CJB Item Spawner] Received menu open key.
+[11:33:09 TRACE CJB Cheats Menu] Received menu open key.
+[11:33:12 TRACE CJB Cheats Menu] Received menu open key.
+[11:33:19 TRACE game] Warping to Town
+[11:33:35 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:33:35 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:33:42 TRACE game] Warping to SeedShop
+[11:33:51 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:33:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:34:11 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:34:11 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:34:12 TRACE CJB Item Spawner] Received menu open key.
+[11:34:14 TRACE CJB Cheats Menu] Received menu open key.
+[11:34:34 TRACE CJB Item Spawner] Received menu open key.
+[11:34:34 TRACE CJB Cheats Menu] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:34:35 TRACE CJB Cheats Menu] Received menu open key.
+[11:34:37 TRACE game] Warping to Farm
+[11:34:39 TRACE game] Warping to FarmHouse
+[11:34:44 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:34:45 TRACE SMAPI]    task complete.
+[11:34:45 TRACE SMAPI] Context: before save.
+[11:34:45 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:34:45 TRACE game] SaveGame.Save() called.
+[11:34:45 TRACE SMAPI] Synchronizing 'Save' task...
+[11:34:45 TRACE game] Saving without compression...
+[11:34:45 TRACE SMAPI]    task complete.
+[11:34:45 TRACE game] SaveGame.Save() completed without exceptions.
+[11:34:46 TRACE SMAPI] Context: after save, starting fall 20 Y2.
+[11:35:04 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:35:04 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:35:09 TRACE game] Warping to Farm
+[11:35:24 TRACE game] Warping to Greenhouse
+[11:36:41 TRACE CJB Item Spawner] Received menu open key.
+[11:38:54 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:38:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:38:56 TRACE CJB Item Spawner] Received menu open key.
+[11:39:02 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:40:17 TRACE game] Warping to Farm
+[11:40:19 TRACE CJB Item Spawner] Received menu open key.
+[11:40:20 TRACE CJB Cheats Menu] Received menu open key.
+[11:40:30 TRACE game] Warping to Greenhouse
+[11:40:32 TRACE game] Warping to Farm
+[11:40:37 TRACE game] Warping to FarmHouse
+[11:40:40 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:40:40 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:40:46 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:40:48 TRACE SMAPI]    task complete.
+[11:41:02 TRACE SMAPI] Context: before save.
+[11:41:02 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:41:02 TRACE game] SaveGame.Save() called.
+[11:41:02 TRACE SMAPI] Synchronizing 'Save' task...
+[11:41:02 TRACE game] Saving without compression...
+[11:41:02 TRACE SMAPI]    task complete.
+[11:41:02 TRACE game] SaveGame.Save() completed without exceptions.
+[11:41:04 TRACE SMAPI] Context: after save, starting spring 1 Y3.
+[11:41:04 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[11:41:04 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[11:41:04 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[11:41:04 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[11:41:08 TRACE game] Warping to FarmHouse
+[11:41:10 TRACE game] Warping to Farm
+[11:41:21 TRACE game] Warping to Farm
+[11:44:24 TRACE game] Warping to Greenhouse
+[11:44:33 TRACE game] Warping to Farm
+[11:45:40 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:45:40 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:52:21 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:52:21 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:52:42 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:52:42 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:53:01 TRACE CJB Cheats Menu] Received menu open key.
+[11:53:04 TRACE CJB Cheats Menu] Received menu open key.
+[11:53:11 TRACE game] Warping to Mountain
+[11:53:15 TRACE game] Warping to ScienceHouse
+[11:53:29 TRACE game] Warping to Mountain
+[11:53:33 TRACE CJB Cheats Menu] Received menu open key.
+[11:53:35 TRACE game] Warping to Farm
+[11:53:37 TRACE game] Warping to FarmHouse
+[11:53:42 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:53:42 TRACE SMAPI]    task complete.
+[11:53:42 TRACE SMAPI] Context: before save.
+[11:53:42 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:53:42 TRACE game] SaveGame.Save() called.
+[11:53:42 TRACE SMAPI] Synchronizing 'Save' task...
+[11:53:42 TRACE game] Saving without compression...
+[11:53:42 TRACE SMAPI]    task complete.
+[11:53:42 TRACE game] SaveGame.Save() completed without exceptions.
+[11:53:44 TRACE SMAPI] Context: after save, starting spring 2 Y3.
+[11:53:47 TRACE game] Warping to Farm
+[11:53:48 TRACE game] Warping to FarmHouse
+[11:53:57 TRACE game] Warping to Farm
+[11:53:58 TRACE CJB Item Spawner] Received menu open key.
+[11:54:00 TRACE CJB Cheats Menu] Received menu open key.
+[11:54:18 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:54:18 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:54:22 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:54:22 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:54:30 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:54:30 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:54:45 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:54:45 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:54:59 TRACE CJB Cheats Menu] Received menu open key.
+[11:55:29 TRACE CJB Item Spawner] Received menu open key.
+[11:55:42 TRACE CJB Item Spawner] Received menu open key.
+[11:55:43 TRACE CJB Cheats Menu] Received menu open key.
+[11:55:46 TRACE game] Warping to Mountain
+[11:55:50 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:55:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:55:51 TRACE CJB Item Spawner] Received menu open key.
+[11:55:53 TRACE CJB Cheats Menu] Received menu open key.
+[11:56:01 TRACE CJB Cheats Menu] Received menu open key.
+[11:56:04 TRACE game] Warping to Farm
+[11:56:10 TRACE game] Warping to FarmHouse
+[11:56:21 TRACE CJB Item Spawner] Received menu open key.
+[11:56:23 TRACE CJB Cheats Menu] Received menu open key.
+[11:56:35 TRACE game] Warping to Farm
+[11:56:37 TRACE game] Warping to FarmHouse
+[11:56:40 TRACE CJB Cheats Menu] Received menu open key.
+[11:56:47 TRACE SMAPI] Synchronizing 'NewDay' task...
+[11:56:48 TRACE SMAPI]    task complete.
+[11:56:48 TRACE SMAPI] Context: before save.
+[11:56:48 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[11:56:48 TRACE game] SaveGame.Save() called.
+[11:56:48 TRACE SMAPI] Synchronizing 'Save' task...
+[11:56:48 TRACE game] Saving without compression...
+[11:56:48 TRACE SMAPI]    task complete.
+[11:56:48 TRACE game] SaveGame.Save() completed without exceptions.
+[11:56:50 TRACE SMAPI] Context: after save, starting spring 10 Y3.
+[11:57:09 TRACE game] Warping to Farm
+[11:57:15 TRACE game] Warping to Farm
+[11:57:34 TRACE game] Warping to Greenhouse
+[11:57:41 TRACE game] Warping to Farm
+[11:57:48 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[11:57:48 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[11:57:50 TRACE CJB Cheats Menu] Received menu open key.
+[11:57:55 TRACE CJB Item Spawner] Received menu open key.
+[11:57:56 TRACE CJB Cheats Menu] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:57:57 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[11:59:21 TRACE CJB Cheats Menu] Received menu open key.
+[11:59:23 TRACE game] Warping to Mountain
+[11:59:25 TRACE game] Warping to ScienceHouse
+[11:59:36 TRACE CJB Cheats Menu] Received menu open key.
+[12:00:01 TRACE game] Warping to ScienceHouse
+[12:00:04 TRACE CJB Cheats Menu] Received menu open key.
+[12:00:06 TRACE game] Warping to Farm
+[12:00:07 TRACE game] Warping to FarmHouse
+[12:00:13 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:00:13 TRACE SMAPI]    task complete.
+[12:00:13 TRACE SMAPI] Context: before save.
+[12:00:13 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:00:13 TRACE game] SaveGame.Save() called.
+[12:00:13 TRACE SMAPI] Synchronizing 'Save' task...
+[12:00:13 TRACE game] Saving without compression...
+[12:00:13 TRACE SMAPI]    task complete.
+[12:00:13 TRACE game] SaveGame.Save() completed without exceptions.
+[12:00:15 TRACE SMAPI] Context: after save, starting spring 11 Y3.
+[12:00:19 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:00:19 TRACE SMAPI]    task complete.
+[12:00:19 TRACE SMAPI] Context: before save.
+[12:00:19 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:00:19 TRACE game] SaveGame.Save() called.
+[12:00:19 TRACE SMAPI] Synchronizing 'Save' task...
+[12:00:19 TRACE game] Saving without compression...
+[12:00:19 TRACE SMAPI]    task complete.
+[12:00:19 TRACE game] SaveGame.Save() completed without exceptions.
+[12:00:21 TRACE SMAPI] Context: after save, starting spring 12 Y3.
+[12:00:22 TRACE CJB Cheats Menu] Received menu open key.
+[12:00:30 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:00:30 TRACE SMAPI]    task complete.
+[12:00:30 TRACE SMAPI] Context: before save.
+[12:00:30 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:00:30 TRACE game] SaveGame.Save() called.
+[12:00:30 TRACE SMAPI] Synchronizing 'Save' task...
+[12:00:30 TRACE game] Saving without compression...
+[12:00:30 TRACE SMAPI]    task complete.
+[12:00:30 TRACE game] SaveGame.Save() completed without exceptions.
+[12:00:32 TRACE SMAPI] Context: after save, starting spring 2 Y3.
+[12:00:35 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:00:35 TRACE SMAPI]    task complete.
+[12:00:35 TRACE SMAPI] Context: before save.
+[12:00:35 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:00:35 TRACE game] SaveGame.Save() called.
+[12:00:35 TRACE SMAPI] Synchronizing 'Save' task...
+[12:00:35 TRACE game] Saving without compression...
+[12:00:35 TRACE SMAPI]    task complete.
+[12:00:35 TRACE game] SaveGame.Save() completed without exceptions.
+[12:00:37 TRACE SMAPI] Context: after save, starting spring 3 Y3.
+[12:00:37 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:00:37 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:00:37 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:00:37 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[12:00:40 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:00:40 TRACE SMAPI]    task complete.
+[12:00:40 TRACE SMAPI] Context: before save.
+[12:00:40 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:00:40 TRACE game] SaveGame.Save() called.
+[12:00:40 TRACE SMAPI] Synchronizing 'Save' task...
+[12:00:40 TRACE game] Saving without compression...
+[12:00:41 TRACE SMAPI]    task complete.
+[12:00:41 TRACE game] SaveGame.Save() completed without exceptions.
+[12:00:42 TRACE SMAPI] Context: after save, starting spring 4 Y3.
+[12:00:42 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:00:42 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:00:42 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:00:42 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[12:01:05 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:01:05 TRACE SMAPI]    task complete.
+[12:01:05 TRACE SMAPI] Context: before save.
+[12:01:05 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:01:05 TRACE game] SaveGame.Save() called.
+[12:01:05 TRACE SMAPI] Synchronizing 'Save' task...
+[12:01:05 TRACE game] Saving without compression...
+[12:01:05 TRACE SMAPI]    task complete.
+[12:01:05 TRACE game] SaveGame.Save() completed without exceptions.
+[12:01:07 TRACE SMAPI] Context: after save, starting spring 5 Y3.
+[12:01:08 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:01:08 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:01:13 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:01:13 TRACE SMAPI]    task complete.
+[12:01:13 TRACE SMAPI] Context: before save.
+[12:01:13 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:01:13 TRACE game] SaveGame.Save() called.
+[12:01:13 TRACE SMAPI] Synchronizing 'Save' task...
+[12:01:13 TRACE game] Saving without compression...
+[12:01:13 TRACE SMAPI]    task complete.
+[12:01:13 TRACE game] SaveGame.Save() completed without exceptions.
+[12:01:15 TRACE SMAPI] Context: after save, starting spring 6 Y3.
+[12:01:18 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:01:19 TRACE SMAPI]    task complete.
+[12:01:19 TRACE SMAPI] Context: before save.
+[12:01:19 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:01:19 TRACE game] SaveGame.Save() called.
+[12:01:19 TRACE SMAPI] Synchronizing 'Save' task...
+[12:01:19 TRACE game] Saving without compression...
+[12:01:19 TRACE SMAPI]    task complete.
+[12:01:19 TRACE game] SaveGame.Save() completed without exceptions.
+[12:01:21 TRACE SMAPI] Context: after save, starting spring 7 Y3.
+[12:01:21 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:01:21 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:01:21 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:01:21 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[12:01:24 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:01:24 TRACE SMAPI]    task complete.
+[12:01:24 TRACE SMAPI] Context: before save.
+[12:01:24 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:01:24 TRACE game] SaveGame.Save() called.
+[12:01:24 TRACE SMAPI] Synchronizing 'Save' task...
+[12:01:24 TRACE game] Saving without compression...
+[12:01:24 TRACE SMAPI]    task complete.
+[12:01:24 TRACE game] SaveGame.Save() completed without exceptions.
+[12:01:26 TRACE SMAPI] Context: after save, starting spring 8 Y3.
+[12:01:26 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:01:26 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:01:26 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:01:26 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[12:01:28 TRACE game] Warping to Farm
+[12:01:41 TRACE game] Warping to FarmHouse
+[12:01:46 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:01:46 TRACE SMAPI]    task complete.
+[12:01:46 TRACE SMAPI] Context: before save.
+[12:01:46 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:01:46 TRACE game] SaveGame.Save() called.
+[12:01:46 TRACE SMAPI] Synchronizing 'Save' task...
+[12:01:46 TRACE game] Saving without compression...
+[12:01:47 TRACE SMAPI]    task complete.
+[12:01:47 TRACE game] SaveGame.Save() completed without exceptions.
+[12:01:48 TRACE SMAPI] Context: after save, starting spring 9 Y3.
+[12:01:51 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:01:52 TRACE SMAPI]    task complete.
+[12:01:52 TRACE SMAPI] Context: before save.
+[12:01:52 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:01:52 TRACE game] SaveGame.Save() called.
+[12:01:52 TRACE SMAPI] Synchronizing 'Save' task...
+[12:01:52 TRACE game] Saving without compression...
+[12:01:52 TRACE SMAPI]    task complete.
+[12:01:52 TRACE game] SaveGame.Save() completed without exceptions.
+[12:01:54 TRACE SMAPI] Context: after save, starting spring 10 Y3.
+[12:01:57 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:01:57 TRACE SMAPI]    task complete.
+[12:01:57 TRACE SMAPI] Context: before save.
+[12:01:57 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:01:57 TRACE game] SaveGame.Save() called.
+[12:01:57 TRACE SMAPI] Synchronizing 'Save' task...
+[12:01:57 TRACE game] Saving without compression...
+[12:01:57 TRACE SMAPI]    task complete.
+[12:01:57 TRACE game] SaveGame.Save() completed without exceptions.
+[12:01:59 TRACE SMAPI] Context: after save, starting spring 11 Y3.
+[12:01:59 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:01:59 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:01:59 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:01:59 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[12:02:02 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:02:03 TRACE SMAPI]    task complete.
+[12:02:03 TRACE SMAPI] Context: before save.
+[12:02:03 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:02:03 TRACE game] SaveGame.Save() called.
+[12:02:03 TRACE SMAPI] Synchronizing 'Save' task...
+[12:02:03 TRACE game] Saving without compression...
+[12:02:03 TRACE SMAPI]    task complete.
+[12:02:03 TRACE game] SaveGame.Save() completed without exceptions.
+[12:02:05 TRACE SMAPI] Context: after save, starting spring 12 Y3.
+[12:02:49 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:02:49 TRACE SMAPI]    task complete.
+[12:02:49 TRACE SMAPI] Context: before save.
+[12:02:49 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:02:49 TRACE game] SaveGame.Save() called.
+[12:02:49 TRACE SMAPI] Synchronizing 'Save' task...
+[12:02:49 TRACE game] Saving without compression...
+[12:02:49 TRACE SMAPI]    task complete.
+[12:02:49 TRACE game] SaveGame.Save() completed without exceptions.
+[12:02:51 TRACE SMAPI] Context: after save, starting spring 13 Y3.
+[12:02:51 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:02:51 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:02:51 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:02:51 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[12:03:19 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:03:19 TRACE SMAPI]    task complete.
+[12:03:19 TRACE SMAPI] Context: before save.
+[12:03:19 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:03:19 TRACE game] SaveGame.Save() called.
+[12:03:19 TRACE SMAPI] Synchronizing 'Save' task...
+[12:03:19 TRACE game] Saving without compression...
+[12:03:19 TRACE SMAPI]    task complete.
+[12:03:19 TRACE game] SaveGame.Save() completed without exceptions.
+[12:03:21 TRACE SMAPI] Context: after save, starting spring 14 Y3.
+[12:03:21 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:03:21 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:03:21 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:03:21 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[12:03:36 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:03:36 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:03:42 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:03:42 TRACE SMAPI]    task complete.
+[12:03:42 TRACE SMAPI] Context: before save.
+[12:03:42 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:03:42 TRACE game] SaveGame.Save() called.
+[12:03:42 TRACE SMAPI] Synchronizing 'Save' task...
+[12:03:42 TRACE game] Saving without compression...
+[12:03:42 TRACE SMAPI]    task complete.
+[12:03:42 TRACE game] SaveGame.Save() completed without exceptions.
+[12:03:44 TRACE SMAPI] Context: after save, starting spring 15 Y3.
+[12:03:44 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:03:44 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:03:44 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:03:44 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[12:03:47 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:03:48 TRACE SMAPI]    task complete.
+[12:03:48 TRACE SMAPI] Context: before save.
+[12:03:48 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:03:48 TRACE game] SaveGame.Save() called.
+[12:03:48 TRACE SMAPI] Synchronizing 'Save' task...
+[12:03:48 TRACE game] Saving without compression...
+[12:03:48 TRACE SMAPI]    task complete.
+[12:03:48 TRACE game] SaveGame.Save() completed without exceptions.
+[12:03:49 TRACE SMAPI] Context: after save, starting spring 16 Y3.
+[12:03:52 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:03:53 TRACE SMAPI]    task complete.
+[12:03:53 TRACE SMAPI] Context: before save.
+[12:03:53 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:03:53 TRACE game] SaveGame.Save() called.
+[12:03:53 TRACE SMAPI] Synchronizing 'Save' task...
+[12:03:53 TRACE game] Saving without compression...
+[12:03:53 TRACE SMAPI]    task complete.
+[12:03:53 TRACE game] SaveGame.Save() completed without exceptions.
+[12:03:55 TRACE SMAPI] Context: after save, starting spring 17 Y3.
+[12:04:09 TRACE game] Warping to Farm
+[12:04:10 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:04:10 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:13:32 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:13:32 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:13:54 TRACE game] Warping to Coop83a83729-19cb-4094-8150-ecc2af05b748
+[12:13:54 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:13:54 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:13:54 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:13:54 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[12:14:00 TRACE game] Warping to Coop83a83729-19cb-4094-8150-ecc2af05b748
+[12:14:50 TRACE game] Warping to Farm
+[12:14:54 TRACE game] Warping to Coop83a83729-19cb-4094-8150-ecc2af05b748
+[12:15:01 TRACE game] Warping to Farm
+[12:15:03 TRACE game] Warping to Coop184e576b-4876-49ba-acc2-345e5411099e
+[12:15:10 TRACE game] Warping to Coop184e576b-4876-49ba-acc2-345e5411099e
+[12:15:30 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:15:30 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:15:42 TRACE game] Warping to Farm
+[12:15:49 TRACE game] Warping to Barn00d68c61-87be-49e2-a291-648d8ede4e0e
+[12:15:59 TRACE game] Warping to Farm
+[12:16:14 TRACE game] Warping to Shedecbdc0f0-3224-4bd4-b722-3133d1e2fc0a
+[12:16:15 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:16:15 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:16:20 TRACE CJB Cheats Menu] Received menu open key.
+[12:16:21 TRACE CJB Item Spawner] Received menu open key.
+[12:16:24 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[12:16:38 TRACE CJB Item Spawner] Received menu open key.
+[12:16:59 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[12:17:01 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[12:17:16 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:17:16 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:17:18 TRACE CJB Cheats Menu] Received menu open key.
+[12:17:20 TRACE CJB Item Spawner] Received menu open key.
+[12:17:30 TRACE game] Warping to Farm
+[12:17:47 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:17:47 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:18:03 TRACE game] Warping to Shedecbdc0f0-3224-4bd4-b722-3133d1e2fc0a
+[12:18:24 TRACE game] Warping to Farm
+[12:18:26 TRACE game] Warping to Shedecbdc0f0-3224-4bd4-b722-3133d1e2fc0a
+[12:18:28 TRACE game] Warping to Farm
+[12:19:12 TRACE game] Warping to Shedecbdc0f0-3224-4bd4-b722-3133d1e2fc0a
+[12:19:44 TRACE game] Warping to Farm
+[12:20:07 TRACE CJB Cheats Menu] Received menu open key.
+[12:20:08 TRACE CJB Item Spawner] Received menu open key.
+[12:20:36 TRACE game] Warping to Shedecbdc0f0-3224-4bd4-b722-3133d1e2fc0a
+[12:20:59 TRACE CJB Cheats Menu] Received menu open key.
+[12:21:01 TRACE game] Warping to Farm
+[12:21:03 TRACE game] Warping to FarmHouse
+[12:21:08 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:21:08 TRACE SMAPI]    task complete.
+[12:21:08 TRACE SMAPI] Context: before save.
+[12:21:08 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:21:08 TRACE game] SaveGame.Save() called.
+[12:21:08 TRACE SMAPI] Synchronizing 'Save' task...
+[12:21:08 TRACE game] Saving without compression...
+[12:21:08 TRACE SMAPI]    task complete.
+[12:21:08 TRACE game] SaveGame.Save() completed without exceptions.
+[12:21:10 TRACE SMAPI] Context: after save, starting spring 18 Y3.
+[12:21:10 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:21:10 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:21:10 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:21:10 TRACE SMAPI] Invalidated 2 asset names (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 2 core assets (Maps/Greenhouse, Maps/Greenhouse.es-ES).
+[12:21:26 TRACE game] Warping to Farm
+[12:21:35 TRACE Lookup Anything] Received a lookup request... searching the open 'LetterViewerMenu' menu... no target found.
+[12:21:38 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:21:38 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:21:42 TRACE game] Warping to Greenhouse
+[12:21:50 TRACE game] Warping to Farm
+[12:22:07 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:22:07 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:22:13 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:22:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:22:18 TRACE game] Warping to Shedecbdc0f0-3224-4bd4-b722-3133d1e2fc0a
+[12:22:21 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:22:21 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:22:34 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:22:34 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:22:39 TRACE game] Warping to Farm
+[12:22:41 TRACE CJB Cheats Menu] Received menu open key.
+[12:22:42 TRACE game] Warping to Farm
+[12:23:02 TRACE game] Warping to Shedecbdc0f0-3224-4bd4-b722-3133d1e2fc0a
+[12:23:26 TRACE game] Warping to Farm
+[12:23:45 TRACE game] Warping to Shedecbdc0f0-3224-4bd4-b722-3133d1e2fc0a
+[12:24:09 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:24:09 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:24:13 TRACE game] Warping to Farm
+[12:24:20 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:24:20 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:24:24 TRACE game] Warping to FarmHouse
+[12:24:27 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:24:27 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:24:39 TRACE SMAPI] Synchronizing 'NewDay' task...
+[12:24:40 TRACE SMAPI]    task complete.
+[12:24:40 TRACE SMAPI] Context: before save.
+[12:24:40 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[12:24:40 TRACE game] SaveGame.Save() called.
+[12:24:40 TRACE SMAPI] Synchronizing 'Save' task...
+[12:24:40 TRACE game] Saving without compression...
+[12:24:40 TRACE SMAPI]    task complete.
+[12:24:40 TRACE game] SaveGame.Save() completed without exceptions.
+[12:24:41 TRACE SMAPI] Context: after save, starting spring 19 Y3.
+[12:24:42 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[12:24:42 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:24:44 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
+[12:24:44 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:24:44 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:24:44 TRACE SMAPI] Invalidated 3 asset names (Maps/Cellar, Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 0 core assets ().
+[12:24:44 TRACE SMAPI] Context: returning to title
+[12:24:44 TRACE SMAPI] Content Patcher edited Data/CraftingRecipes.es-ES (for the 'Upgrate Sprinklers' content pack).
+[12:24:44 TRACE SMAPI] Invalidated 493 asset names (Animals/BabyGoat, Animals/BabyPig, Animals/BabyVoid Chicken, Animals/BabyWhite Chicken, Animals/BabyWhite Cow, Animals/Brown Chicken, Animals/Brown Cow, Animals/Dinosaur, Animals/Duck, Animals/Goat, Animals/horse, Animals/Pig, Animals/Rabbit, Animals/Void Chicken, Animals/White Chicken, Animals/White Cow, Buildings/Barn, Buildings/Big Barn, Buildings/Big Coop, Buildings/Coop, Buildings/Deluxe Barn, Buildings/Deluxe Barn_PaintMask, Buildings/Deluxe Coop, Buildings/Deluxe Coop_PaintMask, Buildings/Fish Pond, Buildings/Greenhouse, Buildings/houses, Buildings/houses_PaintMask, Buildings/Junimo Hut, Buildings/Log Cabin, Buildings/Log Cabin_PaintMask, Buildings/Mill, Buildings/Plank Cabin, Buildings/Plank Cabin_PaintMask, Buildings/Shed, Buildings/Shipping Bin, Buildings/Silo, Buildings/Slime Hutch, Buildings/Stable, Buildings/Stable_PaintMask, Buildings/Stone Cabin, Buildings/Stone Cabin_PaintMask, Buildings/Well, Characters/Abigail, Characters/Alex, Characters/Birdie, Characters/Bouncer, Characters/Caroline, Characters/Clint, Characters/Demetrius, Characters/Dialogue/Abigail.es-ES, Characters/Dialogue/Alex.es-ES, Characters/Dialogue/Caroline.es-ES, Characters/Dialogue/Clint.es-ES, Characters/Dialogue/Demetrius.es-ES, Characters/Dialogue/Dwarf.es-ES, Characters/Dialogue/Elliott.es-ES, Characters/Dialogue/Emily.es-ES, Characters/Dialogue/Evelyn.es-ES, Characters/Dialogue/George.es-ES, Characters/Dialogue/Gus.es-ES, Characters/Dialogue/Haley.es-ES, Characters/Dialogue/Harvey.es-ES, Characters/Dialogue/Jas.es-ES, Characters/Dialogue/Jodi.es-ES, Characters/Dialogue/Kent.es-ES, Characters/Dialogue/Krobus.es-ES, Characters/Dialogue/Leah.es-ES, Characters/Dialogue/Lewis.es-ES, Characters/Dialogue/Linus.es-ES, Characters/Dialogue/Marnie.es-ES, Characters/Dialogue/MarriageDialogue.es-ES, Characters/Dialogue/MarriageDialogueAbigail.es-ES, Characters/Dialogue/MarriageDialogueEmily.es-ES, Characters/Dialogue/Maru.es-ES, Characters/Dialogue/Mister Qi.es-ES, Characters/Dialogue/Pam.es-ES, Characters/Dialogue/Penny.es-ES, Characters/Dialogue/Pierre.es-ES, Characters/Dialogue/rainy.es-ES, Characters/Dialogue/Robin.es-ES, Characters/Dialogue/Sam.es-ES, Characters/Dialogue/Sandy.es-ES, Characters/Dialogue/Sebastian.es-ES, Characters/Dialogue/Shane.es-ES, Characters/Dialogue/Vincent.es-ES, Characters/Dialogue/Willy.es-ES, Characters/Dialogue/Wizard.es-ES, Characters/Dwarf, Characters/Elliott, Characters/Emily, Characters/Evelyn, Characters/Farmer/accessories, Characters/Farmer/farmer_base, Characters/Farmer/hairstyles, Characters/Farmer/hats, Characters/Farmer/pants, Characters/Farmer/shirts, Characters/Farmer/shoeColors, Characters/Farmer/skinColors, Characters/George, Characters/Gunther, Characters/Gus, Characters/Haley, Characters/Harvey, Characters/Henchman, Characters/Jas, Characters/Jodi, Characters/Junimo, Characters/Kent, Characters/Krobus, Characters/Leah, Characters/Lewis, Characters/Linus, Characters/Marlon, Characters/Marnie, Characters/Maru, Characters/Maru_Hospital, Characters/MrQi, Characters/Pam, Characters/Penny, Characters/Pierre, Characters/Robin, Characters/Sam, Characters/Sandy, Characters/schedules/Abigail, Characters/schedules/Alex, Characters/schedules/Caroline, Characters/schedules/Clint, Characters/schedules/Demetrius, Characters/schedules/Elliott, Characters/schedules/Emily, Characters/schedules/Evelyn, Characters/schedules/George, Characters/schedules/Gus, Characters/schedules/Haley, Characters/schedules/Harvey, Characters/schedules/Jas, Characters/schedules/Jodi, Characters/schedules/Kent, Characters/schedules/Leah, Characters/schedules/Lewis, Characters/schedules/Linus, Characters/schedules/Marnie, Characters/schedules/Maru, Characters/schedules/Pam, Characters/schedules/Penny, Characters/schedules/Pierre, Characters/schedules/Robin, Characters/schedules/Sam, Characters/schedules/Sandy, Characters/schedules/Sebastian, Characters/schedules/Shane, Characters/schedules/Vincent, Characters/schedules/Willy, Characters/Sebastian, Characters/Shane, Characters/Shane_JojaMart, Characters/Vincent, Characters/Willy, Characters/Wizard, Data/Achievements, Data/Achievements.es-ES, Data/AdditionalFarms, Data/AdditionalLanguages, Data/animationDescriptions, Data/BigCraftablesInformation, Data/BigCraftablesInformation.es-ES, Data/Blueprints.es-ES, Data/Boots.es-ES, Data/Bundles, Data/Bundles.es-ES, Data/ChairTiles, Data/ClothingInformation, Data/ClothingInformation.es-ES, Data/CookingRecipes, Data/CookingRecipes.es-ES, Data/CraftingRecipes, Data/CraftingRecipes.es-ES, Data/Crops, Data/Events/AnimalShop.es-ES, Data/Events/Backwoods.es-ES, Data/Events/BusStop.es-ES, Data/Events/CommunityCenter.es-ES, Data/Events/Farm.es-ES, Data/Events/FarmHouse.es-ES, Data/Events/Forest.es-ES, Data/Events/Mine.es-ES, Data/Events/Mountain.es-ES, Data/Events/ScienceHouse.es-ES, Data/Events/SeedShop.es-ES, Data/Events/Town.es-ES, Data/ExtraDialogue.es-ES, Data/FarmAnimals.es-ES, Data/Festivals/fall16.es-ES, Data/Festivals/FestivalDates, Data/Festivals/spring13.es-ES, Data/Fish.es-ES, Data/FishPondData, Data/Furniture.es-ES, Data/HairData, Data/hats.es-ES, Data/Locations, Data/mail.es-ES, Data/Movies.es-ES, Data/MoviesReactions.es-ES, Data/NPCDispositions.es-ES, Data/NPCGiftTastes, Data/NPCGiftTastes.es-ES, Data/ObjectContextTags, Data/ObjectInformation, Data/ObjectInformation.es-ES, Data/PaintData, Data/SecretNotes.es-ES, Data/SpecialOrders, Data/SpousePatios, Data/SpouseRooms, Data/weapons, Data/weapons.es-ES, Fonts/SmallFont, Fonts/SmallFont.es-ES, Fonts/SpriteFont1, Fonts/SpriteFont1.es-ES, Fonts/tinyFont, Fonts/tinyFontBorder, LooseSprites/birds, LooseSprites/chatBox, LooseSprites/Concessions, LooseSprites/ControllerMaps, LooseSprites/ControllerMaps.es-ES, LooseSprites/Cursors, LooseSprites/Cursors.es-ES, LooseSprites/Cursors2, LooseSprites/daybg, LooseSprites/emojis, LooseSprites/Fence1, LooseSprites/Fence2, LooseSprites/font_bold, LooseSprites/font_colored, LooseSprites/Giftbox, LooseSprites/JunimoNote.es-ES, LooseSprites/Lighting/greenLight, LooseSprites/Lighting/indoorWindowLight, LooseSprites/Lighting/lantern, LooseSprites/Lighting/sconceLight, LooseSprites/Lighting/windowLight, LooseSprites/map, LooseSprites/nightbg, LooseSprites/parrots, LooseSprites/PlayerStatusList, LooseSprites/shadow, LooseSprites/textBox, Maps/AbandonedJojaMart, Maps/AdventureGuild, Maps/AnimalShop, Maps/ArchaeologyHouse, Maps/Backwoods, Maps/Backwoods_GraveSite, Maps/Barn, Maps/Barn2, Maps/Barn3, Maps/BathHouse_Entry, Maps/BathHouse_MensLocker, Maps/BathHouse_Pool, Maps/bathhouse_tiles.es-ES, Maps/BathHouse_WomensLocker, Maps/Beach, Maps/Beach-NightMarket, Maps/Blacksmith, Maps/BoatTunnel, Maps/boatTunnelTiles, Maps/BugLand, Maps/bugLandTiles, Maps/BusStop, Maps/Cabin, Maps/Caldera, Maps/CarolineGreenhouseTiles, Maps/cave, Maps/Cellar, Maps/Club, Maps/CommunityCenter_Refurbished, Maps/CommunityCenter_Ruins, Maps/Coop, Maps/Coop2, Maps/Coop3, Maps/coopTiles.es-ES, Maps/Desert, Maps/DesertTiles.es-ES, Maps/DesertTiles_Extended, Maps/ElliottHouse, Maps/ElliottHouseTiles, Maps/fall_beach.es-ES, Maps/fall_monsterGraveTiles, Maps/fall_outdoorsTileSheet.es-ES, Maps/fall_outdoorsTileSheet2, Maps/fall_town.es-ES, Maps/Farm, Maps/FarmCave, Maps/FarmHouse, Maps/FarmHouse1_marriage, Maps/farmhouse_tiles, Maps/Farm_Greenhouse_Dirt, Maps/FishShop, Maps/Forest, Maps/Greenhouse, Maps/HaleyHouse, Maps/HarveyRoom, Maps/Hospital, Maps/IslandFarmHouse, Maps/IslandNorthCave1, Maps/IslandSouthEastCave, Maps/IslandSouthEastCave_pirates, Maps/IslandWestCave1, Maps/Island_CaptainRoom, Maps/Island_E, Maps/Island_FarmCave, Maps/Island_FieldOffice, Maps/Island_FieldOffice_Tilesheet, Maps/Island_Hut, Maps/Island_Hut_tilesheet, Maps/Island_N, Maps/Island_S, Maps/Island_SE, Maps/Island_Shrine, Maps/island_tilesheet_1, Maps/island_tilesheet_2, Maps/Island_W, Maps/JojaMart, Maps/JojaRuins_TileSheet, Maps/JoshHouse, Maps/LeahHouse, Maps/LeoTreeHouse, Maps/LeoTreeHouse_Tilesheet, Maps/ManorHouse, Maps/MenuTiles, Maps/MenuTilesUncolored, Maps/MermaidHouse, Maps/mermaid_house_tiles, Maps/Mine, Maps/Mines/mine, Maps/Mines/mine_dark, Maps/Mines/mine_desert, Maps/Mines/volcano_caldera, Maps/Mines/volcano_dungeon, Maps/Mountain, Maps/MovieTheater, Maps/MovieTheater_TileSheet, Maps/night_market_tilesheet_objects, Maps/paths, Maps/pirates_tilesheet, Maps/QiNutRoom, Maps/qiNutRoom_tilesheet, Maps/Railroad, Maps/Saloon, Maps/SamHouse, Maps/SandyHouse, Maps/ScienceHouse, Maps/SebastianRoom, Maps/SeedShop, Maps/Sewer, Maps/SewerTiles, Maps/Shed, Maps/SkullCave, Maps/SlimeHutch, Maps/spousePatios, Maps/spouseRooms, Maps/springobjects, Maps/springobjects.es-ES, Maps/spring_beach.es-ES, Maps/spring_monsterGraveTiles, Maps/spring_outdoorsTileSheet.es-ES, Maps/spring_outdoorsTileSheet2, Maps/spring_town.es-ES, Maps/Submarine, Maps/submarine_tilesheet, Maps/summer_outdoorsTileSheet.es-ES, Maps/Summit, Maps/Sunroom, Maps/Tent, Maps/Town, Maps/townInterior.es-ES, Maps/townInterior_2, Maps/Trailer, Maps/Trailer_big, Maps/Tunnel, Maps/walls_and_floors, Maps/winter_beach.es-ES, Maps/winter_monsterGraveTiles, Maps/winter_outdoorsTileSheet.es-ES, Maps/winter_outdoorsTileSheet2, Maps/winter_town.es-ES, Maps/WitchHut, Maps/WitchHutTiles, Maps/WitchSwamp, Maps/witchSwampTiles, Maps/WitchWarpCave, Maps/WizardHouse, Maps/WizardHouseBasement, Maps/Woods, Maps/z_greenhouse_extras.es-ES, Minigames/Clouds, Minigames/TitleButtons, Minigames/TitleButtons.es-ES, Portraits/Abigail, Portraits/Alex, Portraits/Birdie, Portraits/Bouncer, Portraits/Caroline, Portraits/Clint, Portraits/Demetrius, Portraits/Dwarf, Portraits/Elliott, Portraits/Emily, Portraits/Evelyn, Portraits/George, Portraits/Gil, Portraits/Gunther, Portraits/Gus, Portraits/Haley, Portraits/Harvey, Portraits/Henchman, Portraits/Jas, Portraits/Jodi, Portraits/Kent, Portraits/Krobus, Portraits/Leah, Portraits/Lewis, Portraits/Linus, Portraits/Marlon, Portraits/Marnie, Portraits/Maru, Portraits/MrQi, Portraits/Pam, Portraits/Penny, Portraits/Pierre, Portraits/Robin, Portraits/Sam, Portraits/Sandy, Portraits/Sebastian, Portraits/Shane, Portraits/Vincent, Portraits/Willy, Portraits/Wizard, Strings/Buildings.es-ES, Strings/Characters.es-ES, Strings/EnchantmentNames.es-ES, Strings/Events.es-ES, Strings/FarmAnimals.es-ES, Strings/Lexicon.es-ES, Strings/Locations.es-ES, Strings/NPCNames.es-ES, Strings/Objects.es-ES, Strings/schedules/Abigail.es-ES, Strings/SpecialOrderStrings.es-ES, Strings/SpeechBubbles.es-ES, Strings/StringsFromCSFiles, Strings/StringsFromCSFiles.es-ES, Strings/UI.es-ES, TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter, TerrainFeatures/grass, TerrainFeatures/hoeDirt, TerrainFeatures/hoeDirtDark, TerrainFeatures/hoeDirtSnow, TerrainFeatures/mushroom_tree, TerrainFeatures/tree1_fall, TerrainFeatures/tree1_spring, TerrainFeatures/tree1_winter, TerrainFeatures/tree2_fall, TerrainFeatures/tree2_spring, TerrainFeatures/tree2_winter, TerrainFeatures/tree3_fall, TerrainFeatures/tree3_spring, TerrainFeatures/tree3_winter, TerrainFeatures/tree8_fall, TerrainFeatures/tree8_spring, TerrainFeatures/tree8_winter, TileSheets/animations, TileSheets/BuffsIcons, TileSheets/bushes, TileSheets/ChairTiles, TileSheets/Craftables, TileSheets/critters, TileSheets/crops, TileSheets/debris, TileSheets/emotes, TileSheets/fruitTrees, TileSheets/furniture, TileSheets/furnitureFront, TileSheets/Projectiles, TileSheets/rain, TileSheets/tools, TileSheets/weapons).
+Propagated 78 core assets (Buildings/houses, Buildings/houses_PaintMask, Characters/Farmer/accessories, Characters/Farmer/hairstyles, Characters/Farmer/hats, Characters/Farmer/pants, Characters/Farmer/shirts, Data/Achievements, Data/Achievements.es-ES, Data/BigCraftablesInformation, Data/BigCraftablesInformation.es-ES, Data/ClothingInformation, Data/ClothingInformation.es-ES, Data/CookingRecipes, Data/CookingRecipes.es-ES, Data/CraftingRecipes, Data/CraftingRecipes.es-ES, Data/HairData, Data/Movies.es-ES, Data/MoviesReactions.es-ES, Data/NPCGiftTastes, Data/NPCGiftTastes.es-ES, Data/ObjectContextTags, Data/ObjectInformation, Data/ObjectInformation.es-ES, Fonts/SmallFont, Fonts/SmallFont.es-ES, Fonts/SpriteFont1, Fonts/SpriteFont1.es-ES, Fonts/tinyFont, Fonts/tinyFontBorder, LooseSprites/birds, LooseSprites/Concessions, LooseSprites/ControllerMaps, LooseSprites/ControllerMaps.es-ES, LooseSprites/Cursors, LooseSprites/Cursors.es-ES, LooseSprites/Cursors2, LooseSprites/daybg, LooseSprites/font_bold, LooseSprites/font_colored, LooseSprites/Giftbox, LooseSprites/Lighting/greenLight, LooseSprites/Lighting/indoorWindowLight, LooseSprites/Lighting/lantern, LooseSprites/Lighting/sconceLight, LooseSprites/Lighting/windowLight, LooseSprites/nightbg, LooseSprites/shadow, Maps/MenuTiles, Maps/MenuTilesUncolored, Maps/springobjects, Maps/springobjects.es-ES, Minigames/Clouds, Minigames/TitleButtons, Minigames/TitleButtons.es-ES, Strings/StringsFromCSFiles, Strings/StringsFromCSFiles.es-ES, TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter, TerrainFeatures/hoeDirt, TerrainFeatures/hoeDirtDark, TerrainFeatures/hoeDirtSnow, TileSheets/animations, TileSheets/BuffsIcons, TileSheets/bushes, TileSheets/ChairTiles, TileSheets/Craftables, TileSheets/crops, TileSheets/debris, TileSheets/emotes, TileSheets/fruitTrees, TileSheets/furniture, TileSheets/furnitureFront, TileSheets/Projectiles, TileSheets/rain, TileSheets/tools, TileSheets/weapons).
+[12:24:44 TRACE game] CleanupReturningToTitle()
+[12:24:44 TRACE game] Stopping LAN server
+[12:24:44 TRACE game] Disconnected: ExitedToMainMenu
+[12:24:44 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:24:46 TRACE SMAPI] Synchronizing 'Farm_SpaceCheck' task...
+[12:24:46 TRACE SMAPI]    task complete.
+[12:24:48 TRACE SMAPI] Synchronizing 'Find Save Games' task...
+[12:24:48 TRACE SMAPI]    task complete.
+[12:24:57 TRACE game] gameMode was 'titleScreenGameMode (0)', set to 'loadingMode (6)'.
+[12:24:57 TRACE SMAPI] Game loader synchronizing...
+[12:24:57 TRACE game] getLoadEnumerator('Amiguitos_346875296')
+[12:24:57 TRACE game] regular stream detected...
+[12:24:57 TRACE SMAPI] Synchronizing 'Load_Deserialize' task...
+[12:24:57 TRACE SMAPI]    task complete.
+[12:24:57 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[12:24:57 TRACE SMAPI] Invalidated 0 cache entries.
+[12:24:57 TRACE SMAPI] Synchronizing 'Load_LoadForNewGame' task...
+[12:24:58 TRACE SMAPI] Content Patcher loaded asset 'Maps/z_greenhouse_extras.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:24:58 TRACE SMAPI] Content Patcher edited Maps/z_greenhouse_extras.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:24:58 TRACE SMAPI] Content Patcher loaded asset 'Maps/Greenhouse.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:24:58 TRACE SMAPI] Content Patcher edited Maps/Greenhouse.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:24:58 TRACE SMAPI] Content Patcher loaded asset 'Maps/z_greenhouse_extras.es-ES' (for the 'Wren's Expanded Greenhouse' content pack).
+[12:24:58 TRACE SMAPI] Content Patcher edited Maps/z_greenhouse_extras.es-ES (for the 'Wren's Expanded Greenhouse' content pack).
+[12:24:58 TRACE SMAPI] Content Patcher edited Maps/Cellar (for the 'Wren's Expanded Greenhouse' content pack).
+[12:24:58 TRACE SMAPI]    task complete.
+[12:24:58 TRACE SMAPI] Synchronizing 'Load_Farmer' task...
+[12:24:58 TRACE SMAPI]    task complete.
+[12:24:58 TRACE SMAPI] Synchronizing 'Load_Locations' task...
+[12:24:59 TRACE SMAPI]    task complete.
+[12:24:59 TRACE game] Starting server. Protocol version: 1.5.5
+[12:24:59 TRACE game] Starting LAN server
+[12:24:59 TRACE game] gameMode was 'loadingMode (6)', set to 'playingGameMode (3)'.
+[12:24:59 TRACE game] getLoadEnumerator() exited, elapsed = '00:00:01.6233441'
+[12:24:59 TRACE SMAPI] Game loader done.
+[12:24:59 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[12:24:59 TRACE SMAPI] Context: loaded save 'Amiguitos_346875296', starting spring 19 Y3, locale set to es-ES. Main player with 1 player online.
+[12:24:59 TRACE Convenient Inventory] Favorite item slots loaded for Santiago: '000000000000000000000000000000000000'.
+[18:26:30 TRACE SMAPI] Synchronizing 'NewDay' task...
+[18:26:30 TRACE SMAPI]    task complete.
+[18:26:30 TRACE SMAPI] Context: before save.
+[18:26:30 TRACE Convenient Inventory] Favorite item slots saved to Santiago.modData: '000000000000000000000000000000000000'.
+[18:26:30 TRACE game] SaveGame.Save() called.
+[18:26:30 TRACE SMAPI] Synchronizing 'Save' task...
+[18:26:30 TRACE game] Saving without compression...
+[18:26:30 TRACE SMAPI]    task complete.
+[18:26:30 TRACE game] SaveGame.Save() completed without exceptions.
+[18:26:32 TRACE SMAPI] Context: after save, starting spring 20 Y3.
+[18:26:33 TRACE game] setDropDownToProperValue( serverMode, online ) called.
+[18:26:33 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[18:26:36 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
+[18:26:36 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[18:26:36 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[18:26:36 TRACE SMAPI] Invalidated 3 asset names (Maps/Cellar, Maps/Greenhouse, Maps/Greenhouse.es-ES).
+Propagated 0 core assets ().
+[18:26:36 TRACE SMAPI] Context: returning to title
+[18:26:36 TRACE SMAPI] Content Patcher edited Data/CraftingRecipes.es-ES (for the 'Upgrate Sprinklers' content pack).
+[18:26:36 TRACE SMAPI] Invalidated 386 asset names (Animals/BabyBrown Cow, Animals/BabyWhite Cow, Animals/Brown Chicken, Animals/Brown Cow, Animals/Dinosaur, Animals/Duck, Animals/Goat, Animals/horse, Animals/Pig, Animals/Rabbit, Animals/Void Chicken, Animals/White Chicken, Animals/White Cow, Buildings/Deluxe Barn, Buildings/Deluxe Coop, Buildings/Greenhouse, Buildings/houses, Buildings/Plank Cabin, Buildings/Shed, Buildings/Shipping Bin, Buildings/Silo, Buildings/Stable, Buildings/Stone Cabin, Characters/Abigail, Characters/Alex, Characters/Birdie, Characters/Bouncer, Characters/Caroline, Characters/Clint, Characters/Demetrius, Characters/Dialogue/Abigail.es-ES, Characters/Dialogue/Alex.es-ES, Characters/Dialogue/Caroline.es-ES, Characters/Dialogue/Clint.es-ES, Characters/Dialogue/Demetrius.es-ES, Characters/Dialogue/Dwarf.es-ES, Characters/Dialogue/Elliott.es-ES, Characters/Dialogue/Emily.es-ES, Characters/Dialogue/Evelyn.es-ES, Characters/Dialogue/George.es-ES, Characters/Dialogue/Gus.es-ES, Characters/Dialogue/Haley.es-ES, Characters/Dialogue/Harvey.es-ES, Characters/Dialogue/Jas.es-ES, Characters/Dialogue/Jodi.es-ES, Characters/Dialogue/Kent.es-ES, Characters/Dialogue/Krobus.es-ES, Characters/Dialogue/Leah.es-ES, Characters/Dialogue/Lewis.es-ES, Characters/Dialogue/Linus.es-ES, Characters/Dialogue/Marnie.es-ES, Characters/Dialogue/MarriageDialogue.es-ES, Characters/Dialogue/MarriageDialogueAbigail.es-ES, Characters/Dialogue/MarriageDialogueEmily.es-ES, Characters/Dialogue/Maru.es-ES, Characters/Dialogue/Mister Qi.es-ES, Characters/Dialogue/Pam.es-ES, Characters/Dialogue/Penny.es-ES, Characters/Dialogue/Pierre.es-ES, Characters/Dialogue/Robin.es-ES, Characters/Dialogue/Sam.es-ES, Characters/Dialogue/Sandy.es-ES, Characters/Dialogue/Sebastian.es-ES, Characters/Dialogue/Shane.es-ES, Characters/Dialogue/Vincent.es-ES, Characters/Dialogue/Willy.es-ES, Characters/Dialogue/Wizard.es-ES, Characters/Dwarf, Characters/Elliott, Characters/Emily, Characters/Evelyn, Characters/Farmer/accessories, Characters/Farmer/farmer_base, Characters/Farmer/hairstyles, Characters/Farmer/hats, Characters/Farmer/pants, Characters/Farmer/shirts, Characters/Farmer/shoeColors, Characters/Farmer/skinColors, Characters/George, Characters/Gunther, Characters/Gus, Characters/Haley, Characters/Harvey, Characters/Henchman, Characters/Jas, Characters/Jodi, Characters/Kent, Characters/Krobus, Characters/Leah, Characters/Lewis, Characters/Linus, Characters/Marlon, Characters/Marnie, Characters/Maru, Characters/MrQi, Characters/Pam, Characters/Penny, Characters/Pierre, Characters/Robin, Characters/Sam, Characters/Sandy, Characters/schedules/Abigail, Characters/schedules/Alex, Characters/schedules/Caroline, Characters/schedules/Clint, Characters/schedules/Demetrius, Characters/schedules/Elliott, Characters/schedules/Emily, Characters/schedules/Evelyn, Characters/schedules/George, Characters/schedules/Gus, Characters/schedules/Haley, Characters/schedules/Harvey, Characters/schedules/Jas, Characters/schedules/Jodi, Characters/schedules/Kent, Characters/schedules/Leah, Characters/schedules/Lewis, Characters/schedules/Linus, Characters/schedules/Marnie, Characters/schedules/Maru, Characters/schedules/Pam, Characters/schedules/Penny, Characters/schedules/Pierre, Characters/schedules/Robin, Characters/schedules/Sam, Characters/schedules/Sandy, Characters/schedules/Sebastian, Characters/schedules/Shane, Characters/schedules/Vincent, Characters/schedules/Willy, Characters/Sebastian, Characters/Shane, Characters/Vincent, Characters/Willy, Characters/Wizard, Data/Achievements.es-ES, Data/AdditionalFarms, Data/animationDescriptions, Data/BigCraftablesInformation.es-ES, Data/Blueprints.es-ES, Data/Bundles, Data/Bundles.es-ES, Data/ChairTiles, Data/ClothingInformation.es-ES, Data/CookingRecipes.es-ES, Data/CraftingRecipes.es-ES, Data/Events/FarmHouse.es-ES, Data/FarmAnimals.es-ES, Data/Festivals/FestivalDates, Data/Furniture.es-ES, Data/HairData, Data/hats.es-ES, Data/Locations, Data/mail.es-ES, Data/Movies.es-ES, Data/MoviesReactions.es-ES, Data/NPCDispositions.es-ES, Data/NPCGiftTastes.es-ES, Data/ObjectContextTags, Data/ObjectInformation.es-ES, Data/SpousePatios, Data/SpouseRooms, Data/weapons.es-ES, Fonts/SmallFont.es-ES, Fonts/SpriteFont1.es-ES, Fonts/tinyFont, Fonts/tinyFontBorder, LooseSprites/birds, LooseSprites/chatBox, LooseSprites/Concessions, LooseSprites/ControllerMaps.es-ES, LooseSprites/Cursors.es-ES, LooseSprites/Cursors2, LooseSprites/daybg, LooseSprites/emojis, LooseSprites/font_bold, LooseSprites/font_colored, LooseSprites/Giftbox, LooseSprites/Lighting/greenLight, LooseSprites/Lighting/indoorWindowLight, LooseSprites/Lighting/lantern, LooseSprites/Lighting/sconceLight, LooseSprites/Lighting/windowLight, LooseSprites/map, LooseSprites/nightbg, LooseSprites/parrots, LooseSprites/PlayerStatusList, LooseSprites/shadow, Maps/AbandonedJojaMart, Maps/AdventureGuild, Maps/AnimalShop, Maps/ArchaeologyHouse, Maps/Backwoods, Maps/Barn3, Maps/BathHouse_Entry, Maps/BathHouse_MensLocker, Maps/BathHouse_Pool, Maps/bathhouse_tiles.es-ES, Maps/BathHouse_WomensLocker, Maps/Beach, Maps/Beach-NightMarket, Maps/Blacksmith, Maps/BoatTunnel, Maps/boatTunnelTiles, Maps/BugLand, Maps/bugLandTiles, Maps/BusStop, Maps/Cabin, Maps/Caldera, Maps/CarolineGreenhouseTiles, Maps/cave, Maps/Cellar, Maps/Club, Maps/CommunityCenter_Ruins, Maps/Coop3, Maps/coopTiles.es-ES, Maps/Desert, Maps/DesertTiles.es-ES, Maps/DesertTiles_Extended, Maps/ElliottHouse, Maps/ElliottHouseTiles, Maps/Farm, Maps/FarmCave, Maps/FarmHouse, Maps/FarmHouse1_marriage, Maps/farmhouse_tiles, Maps/FishShop, Maps/Forest, Maps/Greenhouse, Maps/HaleyHouse, Maps/HarveyRoom, Maps/Hospital, Maps/IslandFarmHouse, Maps/IslandNorthCave1, Maps/IslandSouthEastCave, Maps/IslandWestCave1, Maps/Island_CaptainRoom, Maps/Island_E, Maps/Island_FarmCave, Maps/Island_FieldOffice, Maps/Island_FieldOffice_Tilesheet, Maps/Island_Hut, Maps/Island_Hut_tilesheet, Maps/Island_N, Maps/Island_S, Maps/Island_SE, Maps/Island_Shrine, Maps/island_tilesheet_1, Maps/island_tilesheet_2, Maps/Island_W, Maps/JojaMart, Maps/JojaRuins_TileSheet, Maps/JoshHouse, Maps/LeahHouse, Maps/LeoTreeHouse, Maps/LeoTreeHouse_Tilesheet, Maps/ManorHouse, Maps/MenuTiles, Maps/MenuTilesUncolored, Maps/MermaidHouse, Maps/mermaid_house_tiles, Maps/Mine, Maps/Mines/mine, Maps/Mines/mine_dark, Maps/Mines/mine_desert, Maps/Mines/volcano_caldera, Maps/Mines/volcano_dungeon, Maps/Mountain, Maps/MovieTheater, Maps/MovieTheater_TileSheet, Maps/night_market_tilesheet_objects, Maps/paths, Maps/QiNutRoom, Maps/qiNutRoom_tilesheet, Maps/Railroad, Maps/Saloon, Maps/SamHouse, Maps/SandyHouse, Maps/ScienceHouse, Maps/SebastianRoom, Maps/SeedShop, Maps/Sewer, Maps/SewerTiles, Maps/Shed, Maps/SkullCave, Maps/spousePatios, Maps/spouseRooms, Maps/springobjects.es-ES, Maps/spring_beach.es-ES, Maps/spring_monsterGraveTiles, Maps/spring_outdoorsTileSheet.es-ES, Maps/spring_outdoorsTileSheet2, Maps/spring_town.es-ES, Maps/Submarine, Maps/submarine_tilesheet, Maps/summer_outdoorsTileSheet.es-ES, Maps/Summit, Maps/Sunroom, Maps/Tent, Maps/Town, Maps/townInterior.es-ES, Maps/townInterior_2, Maps/Trailer, Maps/Trailer_big, Maps/Tunnel, Maps/walls_and_floors, Maps/winter_beach.es-ES, Maps/WitchHut, Maps/WitchHutTiles, Maps/WitchSwamp, Maps/witchSwampTiles, Maps/WitchWarpCave, Maps/WizardHouse, Maps/WizardHouseBasement, Maps/Woods, Maps/z_greenhouse_extras.es-ES, Minigames/Clouds, Minigames/TitleButtons.es-ES, Portraits/Abigail, Portraits/Alex, Portraits/Birdie, Portraits/Bouncer, Portraits/Caroline, Portraits/Clint, Portraits/Demetrius, Portraits/Dwarf, Portraits/Elliott, Portraits/Emily, Portraits/Evelyn, Portraits/George, Portraits/Gil, Portraits/Gunther, Portraits/Gus, Portraits/Haley, Portraits/Harvey, Portraits/Henchman, Portraits/Jas, Portraits/Jodi, Portraits/Kent, Portraits/Krobus, Portraits/Leah, Portraits/Lewis, Portraits/Linus, Portraits/Marlon, Portraits/Marnie, Portraits/Maru, Portraits/MrQi, Portraits/Pam, Portraits/Penny, Portraits/Pierre, Portraits/Robin, Portraits/Sam, Portraits/Sandy, Portraits/Sebastian, Portraits/Shane, Portraits/Vincent, Portraits/Willy, Portraits/Wizard, Strings/Events.es-ES, Strings/Lexicon.es-ES, Strings/Locations.es-ES, Strings/StringsFromCSFiles, Strings/StringsFromCSFiles.es-ES, Strings/UI.es-ES, TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter, TerrainFeatures/hoeDirt, TerrainFeatures/hoeDirtDark, TerrainFeatures/hoeDirtSnow, TileSheets/animations, TileSheets/BuffsIcons, TileSheets/bushes, TileSheets/ChairTiles, TileSheets/Craftables, TileSheets/crops, TileSheets/debris, TileSheets/emotes, TileSheets/fruitTrees, TileSheets/furniture, TileSheets/furnitureFront, TileSheets/Projectiles, TileSheets/rain, TileSheets/tools, TileSheets/weapons).
+Propagated 64 core assets (Buildings/houses, Characters/Farmer/accessories, Characters/Farmer/hairstyles, Characters/Farmer/hats, Characters/Farmer/pants, Characters/Farmer/shirts, Data/Achievements.es-ES, Data/BigCraftablesInformation.es-ES, Data/ClothingInformation.es-ES, Data/CookingRecipes.es-ES, Data/CraftingRecipes.es-ES, Data/HairData, Data/Movies.es-ES, Data/MoviesReactions.es-ES, Data/NPCGiftTastes.es-ES, Data/ObjectContextTags, Data/ObjectInformation.es-ES, Fonts/SmallFont.es-ES, Fonts/SpriteFont1.es-ES, Fonts/tinyFont, Fonts/tinyFontBorder, LooseSprites/birds, LooseSprites/Concessions, LooseSprites/ControllerMaps.es-ES, LooseSprites/Cursors.es-ES, LooseSprites/Cursors2, LooseSprites/daybg, LooseSprites/font_bold, LooseSprites/font_colored, LooseSprites/Giftbox, LooseSprites/Lighting/greenLight, LooseSprites/Lighting/indoorWindowLight, LooseSprites/Lighting/lantern, LooseSprites/Lighting/sconceLight, LooseSprites/Lighting/windowLight, LooseSprites/nightbg, LooseSprites/shadow, Maps/MenuTiles, Maps/MenuTilesUncolored, Maps/springobjects.es-ES, Minigames/Clouds, Minigames/TitleButtons.es-ES, Strings/StringsFromCSFiles, Strings/StringsFromCSFiles.es-ES, TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter, TerrainFeatures/hoeDirt, TerrainFeatures/hoeDirtDark, TerrainFeatures/hoeDirtSnow, TileSheets/animations, TileSheets/BuffsIcons, TileSheets/bushes, TileSheets/ChairTiles, TileSheets/Craftables, TileSheets/crops, TileSheets/debris, TileSheets/emotes, TileSheets/fruitTrees, TileSheets/furniture, TileSheets/furnitureFront, TileSheets/Projectiles, TileSheets/rain, TileSheets/tools, TileSheets/weapons).
+[18:26:36 TRACE game] CleanupReturningToTitle()
+[18:26:36 TRACE game] Stopping LAN server
+[18:26:36 TRACE game] Disconnected: ExitedToMainMenu
+[18:26:36 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[18:26:37 TRACE SMAPI] Synchronizing 'Farm_SpaceCheck' task...
+[18:26:37 TRACE SMAPI]    task complete.
+[18:26:39 TRACE SMAPI] Synchronizing 'Find Save Games' task...
+[18:26:39 TRACE SMAPI]    task complete.
+[12:27:28 TRACE game] Disconnected: ClosedGame
+[12:27:28 TRACE SMAPI] Disposing...
+[12:27:28 TRACE SMAPI] Disposing the content coordinator. Content managers will no longer be usable after this point.
